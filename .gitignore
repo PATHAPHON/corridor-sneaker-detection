@@ -1,0 +1,23 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.agent-evolution/
+.agents/.agent-evolution/
+
+# Roboflow & ML Models / Data
+datasets/
+*.pt
+models/*.pt
+runs/
+output/
+graphify-out/cache/
+.DS_Store

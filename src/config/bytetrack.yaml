@@ -1,0 +1,8 @@
+# Tuned ByteTrack configuration for single-corridor pedestrian tracking
+tracker_type: bytetrack
+track_high_thresh: 0.50  # First-stage match threshold
+track_low_thresh: 0.10   # Second-stage threshold for low-score matches
+new_track_thresh: 0.50   # Start a new track only if confidence >= 0.50 (prevents false background tracks)
+track_buffer: 90         # Frames to keep lost tracks alive (90 frames = 3.0 seconds at 30 FPS)
+match_thresh: 0.80       # Association similarity threshold (IoU/cost)
+fuse_score: True         # Fuse detection score with motion/IoU for matching

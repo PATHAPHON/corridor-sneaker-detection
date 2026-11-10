@@ -1,0 +1,2822 @@
+{
+  ".agents/.agent-evolution/bin/distill.py": {
+    "mtime": 1794292342.6663685,
+    "seen": 1794292367.013741,
+    "ast_hash": "da1053cce0b550123967c8634025b614",
+    "semantic_hash": "da1053cce0b550123967c8634025b614"
+  },
+  ".agents/.agent-evolution/bin/sync-traces.py": {
+    "mtime": 1794292342.6668072,
+    "seen": 1794292367.0137448,
+    "ast_hash": "83dcd1cfd567f35ec011efbdd9e716b8",
+    "semantic_hash": "83dcd1cfd567f35ec011efbdd9e716b8"
+  },
+  ".agents/.agent-evolution/bin/trace-collector.py": {
+    "mtime": 1794292342.6672304,
+    "seen": 1794292367.013747,
+    "ast_hash": "a5c401abdde758ef9cbc08ad201ff7b2",
+    "semantic_hash": "a5c401abdde758ef9cbc08ad201ff7b2"
+  },
+  ".agents/hooks.json": {
+    "mtime": 1794292342.6565015,
+    "seen": 1794292367.013747,
+    "ast_hash": "28f50b562cf79a2c8051c4427731798c",
+    "semantic_hash": "28f50b562cf79a2c8051c4427731798c"
+  },
+  ".agents/hooks/agent_detector.py": {
+    "mtime": 1794292342.6593928,
+    "seen": 1794292367.013748,
+    "ast_hash": "373ec25d75f32286b6414465627d087f",
+    "semantic_hash": "373ec25d75f32286b6414465627d087f"
+  },
+  ".agents/hooks/pre_tool_spec_enforcer.py": {
+    "mtime": 1794303020.354767,
+    "seen": 1794305495.828921,
+    "ast_hash": "c642367819ccc77fabe4d221290fbf03",
+    "semantic_hash": ""
+  },
+  ".agents/hooks/session-start-main.py": {
+    "mtime": 1794292342.6602314,
+    "seen": 1794292367.01375,
+    "ast_hash": "06fe2ae121a3ebdc002e5bd507f907d5",
+    "semantic_hash": "06fe2ae121a3ebdc002e5bd507f907d5"
+  },
+  ".agents/hooks/trace_hook.py": {
+    "mtime": 1794292342.660547,
+    "seen": 1794292367.013751,
+    "ast_hash": "a9d2387797401bb41d6d1581b3b95c5d",
+    "semantic_hash": "a9d2387797401bb41d6d1581b3b95c5d"
+  },
+  ".agents/skills/diagnosing-bugs/scripts/hitl-loop.template.sh": {
+    "mtime": 1794292342.679887,
+    "seen": 1794292367.013752,
+    "ast_hash": "4e3e2b4d5dc8101655dd6ad33fb5ce41",
+    "semantic_hash": "4e3e2b4d5dc8101655dd6ad33fb5ce41"
+  },
+  ".agents/.agent-evolution/data/traces/current_trace.json": {
+    "mtime": 1794326289.6541367,
+    "seen": 1794326296.5535228,
+    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_f9e4b898-cac6-4837-812c-27215b59b49d.json": {
+    "mtime": 1794295695.034002,
+    "seen": 1794298045.156994,
+    "ast_hash": "df864a937472cc90ecdde267e22bdb71",
+    "semantic_hash": ""
+  },
+  ".agents/skills/code-review/SKILL.md": {
+    "mtime": 1794292342.6783025,
+    "seen": 1794293079.7420511,
+    "ast_hash": "c2a0819e99549ce4dae06e55ec05cc11",
+    "semantic_hash": ""
+  },
+  ".agents/skills/code-review/agents/openai.yaml": {
+    "mtime": 1794292342.6779344,
+    "seen": 1794293079.742053,
+    "ast_hash": "41726fb93a74bbeab2f643a27d6452d2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/diagnosing-bugs/SKILL.md": {
+    "mtime": 1794292342.6803508,
+    "seen": 1794293079.742054,
+    "ast_hash": "c54e5ae00fcc2cf2545df8bdb4303620",
+    "semantic_hash": ""
+  },
+  ".agents/skills/diagnosing-bugs/agents/openai.yaml": {
+    "mtime": 1794292342.679277,
+    "seen": 1794293079.742055,
+    "ast_hash": "52e474f87cddee193c6d9f0bca1fcdb4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/handoff/SKILL.md": {
+    "mtime": 1794302710.9164243,
+    "seen": 1794302754.115315,
+    "ast_hash": "a3b9b3684f7d7af29996091e7d0f51c3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/handoff/agents/openai.yaml": {
+    "mtime": 1794292342.686116,
+    "seen": 1794293079.7420568,
+    "ast_hash": "4be8ae2848843907cb2c73c3abed107c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/lifecycle/SKILL.md": {
+    "mtime": 1794292342.6872246,
+    "seen": 1794293079.742058,
+    "ast_hash": "306b46fc19d4d8353f4115a051f263f1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/set-call/SKILL.md": {
+    "mtime": 1794292342.6877882,
+    "seen": 1794293079.742059,
+    "ast_hash": "b613dbcc8b753cb5772f74453f81ea7f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-agent-and-glossary/SKILL.md": {
+    "mtime": 1794292342.6883237,
+    "seen": 1794293079.74206,
+    "ast_hash": "83015ddb02ab05c029e068bc997bccf2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-agent-and-glossary/Template/AGENTS.md": {
+    "mtime": 1794292645.8307946,
+    "seen": 1794293079.7420611,
+    "ast_hash": "8f1dc14a132c6144a26745c73aef5924",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-agent-and-glossary/Template/GLOSSARY.md": {
+    "mtime": 1794292656.4834514,
+    "seen": 1794293079.742062,
+    "ast_hash": "d5700834c33de962a63085bfc862c899",
+    "semantic_hash": ""
+  },
+  ".agents/skills/setup-core/SKILL.md": {
+    "mtime": 1794292342.6888382,
+    "seen": 1794293079.742063,
+    "ast_hash": "a2d8ffdef6c81f19f5ffa2db69cef48a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/tdd/SKILL.md": {
+    "mtime": 1794292342.6909466,
+    "seen": 1794293079.7420642,
+    "ast_hash": "4a20890287901bd12bf3baa1690f9565",
+    "semantic_hash": ""
+  },
+  ".agents/skills/tdd/agents/openai.yaml": {
+    "mtime": 1794292342.6901698,
+    "seen": 1794293079.742065,
+    "ast_hash": "e37e499fa0b017cde536bacb0ebaae67",
+    "semantic_hash": ""
+  },
+  ".agents/skills/tdd/mocking.md": {
+    "mtime": 1794292342.689503,
+    "seen": 1794293079.742066,
+    "ast_hash": "c5505e8da8f516c7dacebd01c58a4c2c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/tdd/tests.md": {
+    "mtime": 1794292342.6906514,
+    "seen": 1794293079.742068,
+    "ast_hash": "0a462499661825df11a0852c42382f10",
+    "semantic_hash": ""
+  },
+  ".agents/skills/to-edit/SKILL.md": {
+    "mtime": 1794292342.6915352,
+    "seen": 1794293079.742068,
+    "ast_hash": "4cfff01d8fae47de0d238285b38ba086",
+    "semantic_hash": ""
+  },
+  ".agents/skills/to-spec/SKILL.md": {
+    "mtime": 1794292342.6926246,
+    "seen": 1794293079.742069,
+    "ast_hash": "51fdd1b77f1828d920bae7c75299acb4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/to-spec/agents/openai.yaml": {
+    "mtime": 1794292342.692297,
+    "seen": 1794293079.74207,
+    "ast_hash": "886d06b1f83b51e39bd2874b75730f87",
+    "semantic_hash": ""
+  },
+  ".agents/skills/to-tickets/SKILL.md": {
+    "mtime": 1794292342.6937132,
+    "seen": 1794293079.7420712,
+    "ast_hash": "f556f2770a628233a4272f4b5a8785df",
+    "semantic_hash": ""
+  },
+  ".agents/skills/to-tickets/agents/openai.yaml": {
+    "mtime": 1794292342.6933918,
+    "seen": 1794293079.742072,
+    "ast_hash": "6c4d19c426617a41441e84aacf2786d6",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1794298025.2971592,
+    "seen": 1794298045.1570308,
+    "ast_hash": "672fb4a7eb145343ce7dc1d5a1afd251",
+    "semantic_hash": ""
+  },
+  "GLOSSARY.md": {
+    "mtime": 1794317847.3866625,
+    "seen": 1794317906.036421,
+    "ast_hash": "72214e2cbb03522760ff2df674bf9308",
+    "semantic_hash": ""
+  },
+  "docs/adr/template/adr.md": {
+    "mtime": 1794292535.6461163,
+    "seen": 1794293079.742076,
+    "ast_hash": "14381a01290b6684f2a2c80151b7f20c",
+    "semantic_hash": ""
+  },
+  "docs/adr/0001-person-detection-and-tracking.md": {
+    "mtime": 1794294334.005415,
+    "seen": 1794294573.260138,
+    "ast_hash": "706246cd368c544f3c90f25baa945f45",
+    "semantic_hash": ""
+  },
+  "docs/adr/0002-virtual-line-crossing-tripwire.md": {
+    "mtime": 1794294637.1666899,
+    "seen": 1794294925.410947,
+    "ast_hash": "bf7a42027e1a33143d132209d68a4a56",
+    "semantic_hash": ""
+  },
+  "docs/adr/0003-footwear-detection-roi-extraction.md": {
+    "mtime": 1794296777.6143775,
+    "seen": 1794298045.157035,
+    "ast_hash": "8dc700a673926c359f653791292afa4f",
+    "semantic_hash": ""
+  },
+  "docs/adr/0004-event-logging-and-data-storage.md": {
+    "mtime": 1794296777.6351047,
+    "seen": 1794298045.157036,
+    "ast_hash": "13df03b23bd7a91a3be3893f49be3115",
+    "semantic_hash": ""
+  },
+  "docs/adr/0005-camera-placement-and-optical-geometry.md": {
+    "mtime": 1794296777.650187,
+    "seen": 1794298045.157037,
+    "ast_hash": "f4eb8c8c0ed942d07d0ef76277e51a80",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_369b18d1-2706-46d3-829c-876f7d9fcc79.json": {
+    "mtime": 1794295591.1868548,
+    "seen": 1794295694.953033,
+    "ast_hash": "72c276d41318912f4c5c9fd22eafcfd9",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_3e0cfc48-7e0b-4b63-b416-358ed48a26a0.json": {
+    "mtime": 1794295654.1385398,
+    "seen": 1794295694.953034,
+    "ast_hash": "f91fdb47172ff203c994af2ab880ffd8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/cv_full_body_detection_tripwire.jpg": {
+    "mtime": 1794295667.872488,
+    "seen": 1794295694.953076,
+    "ast_hash": "6c210336985766e7bda0b8e689e175a7",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_bca05775-67b8-4f41-98e8-93efeb000f16.json": {
+    "mtime": 1794302925.5117502,
+    "seen": 1794305495.828916,
+    "ast_hash": "78b767744fbe917ede268156b2dcf9bd",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_c4dec738-e363-460d-a654-28822227aa83.json": {
+    "mtime": 1794297538.2321367,
+    "seen": 1794298045.156993,
+    "ast_hash": "030b462d1f1c79e9246e0a7a7d39b948",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/issues/01-preflight-and-single-image-verification.md": {
+    "mtime": 1794302405.9420815,
+    "seen": 1794302440.3474061,
+    "ast_hash": "1f8118f9305842383a48837585af4de4",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/issues/02-bulk-dataset-upload-and-split.md": {
+    "mtime": 1794302414.6522274,
+    "seen": 1794302440.347407,
+    "ast_hash": "69ff7c4ba9cbdae7025d8708941133ae",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/issues/03-roboflow-auto-label-and-yolo-export.md": {
+    "mtime": 1794303041.6377614,
+    "seen": 1794305495.8289542,
+    "ast_hash": "8bb01c3004e42280241224e456fac3f7",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/spec.md": {
+    "mtime": 1794297866.9937956,
+    "seen": 1794298045.1570299,
+    "ast_hash": "da19fb151f0d24884b5c1f6e93234b0d",
+    "semantic_hash": ""
+  },
+  "docs/adr/0006-runtime-architecture-concurrency-and-testing-strategy.md": {
+    "mtime": 1794296777.66661,
+    "seen": 1794298045.157038,
+    "ast_hash": "c5e97eb2b45155aad9a06db43c722e25",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image250.jpg": {
+    "mtime": 1794297486.3878284,
+    "seen": 1794298045.1570408,
+    "ast_hash": "281fc5c14b5b41bfd715d1937cfa6261",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image251.jpg": {
+    "mtime": 1794297486.3883407,
+    "seen": 1794298045.157042,
+    "ast_hash": "b1db26aaf0efe7bf6c83ccf82fb821da",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image252.jpg": {
+    "mtime": 1794297486.3889403,
+    "seen": 1794298045.157043,
+    "ast_hash": "b86dcc0fa826786a2a8b501afb97b6c1",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image253.jpg": {
+    "mtime": 1794297486.3894906,
+    "seen": 1794298045.157044,
+    "ast_hash": "14f74e2004407fa7b5dcbb59d0ed0432",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image254.jpg": {
+    "mtime": 1794297486.3900652,
+    "seen": 1794298045.157045,
+    "ast_hash": "e14801e8bb2ca8d1ef6b6c92fc13c7a9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image255.jpg": {
+    "mtime": 1794297486.3904922,
+    "seen": 1794298045.157046,
+    "ast_hash": "8678d5c6476f68f1855803d32e26b615",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image256.jpg": {
+    "mtime": 1794297486.3908398,
+    "seen": 1794298045.157047,
+    "ast_hash": "73828574701562f13765ba7fee30f07d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image257.jpg": {
+    "mtime": 1794297486.3917167,
+    "seen": 1794298045.157048,
+    "ast_hash": "32413845a0cd211060a490ae37bf429e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image258.jpg": {
+    "mtime": 1794297486.3920324,
+    "seen": 1794298045.1570492,
+    "ast_hash": "a4eefc68ba6bed5a95a34209b9ec2650",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image259.jpg": {
+    "mtime": 1794297486.3926663,
+    "seen": 1794298045.1570501,
+    "ast_hash": "66083443e0d16b01b47b1616bb83c22f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image260.jpg": {
+    "mtime": 1794297486.3930738,
+    "seen": 1794298045.1570501,
+    "ast_hash": "a58d5440e2b425ef9735f384a5af654f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image261.jpg": {
+    "mtime": 1794297486.3935688,
+    "seen": 1794298045.1570508,
+    "ast_hash": "8db38b8737e6ee6a38f9131deca0d45c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image262.jpg": {
+    "mtime": 1794297486.3943567,
+    "seen": 1794298045.1570518,
+    "ast_hash": "609bf97294e40f83122e55ec02657b65",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image263.jpg": {
+    "mtime": 1794297486.3951778,
+    "seen": 1794298045.157053,
+    "ast_hash": "d71aeeb6799c44581b658579cadbf237",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image264.jpg": {
+    "mtime": 1794297486.395694,
+    "seen": 1794298045.157054,
+    "ast_hash": "41c4bf5da9a69d5d86cc91faaf6fbfe4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image265.jpg": {
+    "mtime": 1794297486.3961952,
+    "seen": 1794298045.157055,
+    "ast_hash": "83cb3339b6dd5f5e0c345bef2bc37960",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image266.jpg": {
+    "mtime": 1794297486.3966088,
+    "seen": 1794298045.157056,
+    "ast_hash": "ad4c10e35e792791072b809c3e585f59",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image267.jpg": {
+    "mtime": 1794297486.3971598,
+    "seen": 1794298045.157057,
+    "ast_hash": "32a307ab3a1b95bd51a40dbd9978188c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image268.jpg": {
+    "mtime": 1794297486.3975794,
+    "seen": 1794298045.157057,
+    "ast_hash": "62e1c363928a670eb18628a4ed60e984",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image269.jpg": {
+    "mtime": 1794297486.3981562,
+    "seen": 1794298045.157058,
+    "ast_hash": "2f550a4130f2999c85b5e91c3731c141",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image270.jpg": {
+    "mtime": 1794297486.3985481,
+    "seen": 1794298045.157059,
+    "ast_hash": "d9be8422dd91249794d813fd1e3ddd56",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image271.jpg": {
+    "mtime": 1794297486.398841,
+    "seen": 1794298045.1570601,
+    "ast_hash": "ba21314ba622f84b6323fa9a060789ca",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image272.jpg": {
+    "mtime": 1794297486.3995247,
+    "seen": 1794298045.157061,
+    "ast_hash": "740ebd4287e9f6f803404502a95e2d97",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image273.jpg": {
+    "mtime": 1794297486.4001288,
+    "seen": 1794298045.1570618,
+    "ast_hash": "2a236c273f8910261afa02edd293004b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image274.jpg": {
+    "mtime": 1794297486.4005737,
+    "seen": 1794298045.1570618,
+    "ast_hash": "87c39b16f7d48239d6f517c4041d3c3a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image275.jpg": {
+    "mtime": 1794297486.400968,
+    "seen": 1794298045.157063,
+    "ast_hash": "5306836ea31265e580da29e5b029aade",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image276.jpg": {
+    "mtime": 1794297486.4015784,
+    "seen": 1794298045.157064,
+    "ast_hash": "391a953f14e58f507b5b65be8b72b7e2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image277.jpg": {
+    "mtime": 1794297486.4019322,
+    "seen": 1794298045.157065,
+    "ast_hash": "ab347a6da065a00a5c9070046bdf74cb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image278.jpg": {
+    "mtime": 1794297486.4023108,
+    "seen": 1794298045.1570659,
+    "ast_hash": "1a85ee3cfd0f9c534ca7db5b4f02397a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image279.jpg": {
+    "mtime": 1794297486.402696,
+    "seen": 1794298045.157067,
+    "ast_hash": "19cb2e523e8e2b6e3886d17c0809a1e1",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image280.jpg": {
+    "mtime": 1794297486.4031632,
+    "seen": 1794298045.157068,
+    "ast_hash": "f1b26267169ed324e9dfee8574149859",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image281.jpg": {
+    "mtime": 1794297486.4034357,
+    "seen": 1794298045.157068,
+    "ast_hash": "2463abac95a391593f8ce854781521ae",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image282.jpg": {
+    "mtime": 1794297486.4040713,
+    "seen": 1794298045.157069,
+    "ast_hash": "2cab9a558688d1d4eb69845745aa406a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image283.jpg": {
+    "mtime": 1794297486.4045036,
+    "seen": 1794298045.1570702,
+    "ast_hash": "d2a8f88132baa76e5a01f0fcff2f9127",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image284.jpg": {
+    "mtime": 1794297486.404866,
+    "seen": 1794298045.157071,
+    "ast_hash": "f2879c8693dff5093783d047c03b357c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image285.jpg": {
+    "mtime": 1794297486.4053035,
+    "seen": 1794298045.1570718,
+    "ast_hash": "2d695184ef089eb2e591a2278e84b16c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image286.jpg": {
+    "mtime": 1794297486.405552,
+    "seen": 1794298045.1570728,
+    "ast_hash": "381bda1ef779bf1ab853c2f19650cce5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image287.jpg": {
+    "mtime": 1794297486.405871,
+    "seen": 1794298045.157074,
+    "ast_hash": "571047b4143a7c98f5720c85c14c3fa0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image288.jpg": {
+    "mtime": 1794297486.4061713,
+    "seen": 1794298045.157075,
+    "ast_hash": "0f889c7447be18a3768a20427de2eaf8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image289.jpg": {
+    "mtime": 1794297486.406607,
+    "seen": 1794298045.157076,
+    "ast_hash": "f378ca9c14e112605d7a360bd76cd79e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image290.jpg": {
+    "mtime": 1794297486.4069283,
+    "seen": 1794298045.157077,
+    "ast_hash": "228873ddd01024e7218fb55c54cc5dce",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image291.jpg": {
+    "mtime": 1794297486.4072852,
+    "seen": 1794298045.157078,
+    "ast_hash": "dd4fa96161071f43bfb7f951d5d56b73",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image292.jpg": {
+    "mtime": 1794297486.4075582,
+    "seen": 1794298045.157078,
+    "ast_hash": "90b0f21f9379c1ada23186a69997e2e3",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image293.jpg": {
+    "mtime": 1794297486.407858,
+    "seen": 1794298045.157079,
+    "ast_hash": "4ff1b3f65ff2848382583cdf490d781a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image294.jpg": {
+    "mtime": 1794297486.408193,
+    "seen": 1794298045.1570802,
+    "ast_hash": "e25c6b147fb5245e820a7c801dda1f64",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image295.jpg": {
+    "mtime": 1794297486.4084628,
+    "seen": 1794298045.1570811,
+    "ast_hash": "d5b055e69705104673cf6d90ffbd5519",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image296.jpg": {
+    "mtime": 1794297486.4088383,
+    "seen": 1794298045.157082,
+    "ast_hash": "2c49e349046751ebf6a62aee36928b82",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image297.jpg": {
+    "mtime": 1794297486.40912,
+    "seen": 1794298045.1570828,
+    "ast_hash": "eb6605fc6d0661cd2a716d41dd19e02c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image298.jpg": {
+    "mtime": 1794297486.4098697,
+    "seen": 1794298045.1570828,
+    "ast_hash": "9fccdc167820ab4d123992d1a7ea93f8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/training/sneakers/image299.jpg": {
+    "mtime": 1794297486.4102528,
+    "seen": 1794298045.157084,
+    "ast_hash": "328f16432c4f98aa1418e9859d08118d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image1.jpg": {
+    "mtime": 1794297493.9701364,
+    "seen": 1794298045.157085,
+    "ast_hash": "af21a8a7939727a7a9d483d3beaff719",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image10.jpg": {
+    "mtime": 1794297493.9706385,
+    "seen": 1794298045.157086,
+    "ast_hash": "f3c8d190c788a9e9022919c9c6362bc4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image100.jpg": {
+    "mtime": 1794297493.9716008,
+    "seen": 1794298045.157087,
+    "ast_hash": "c67c21ce816b8b2609b6fe0a5d87917c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image101.jpg": {
+    "mtime": 1794297493.9720478,
+    "seen": 1794298045.157087,
+    "ast_hash": "625eab491d94ea3f5c516d36e72d7e81",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image102.jpg": {
+    "mtime": 1794297493.972474,
+    "seen": 1794298045.157088,
+    "ast_hash": "2cad654e826ad434b22d78cfbd83543d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image103.jpg": {
+    "mtime": 1794297493.9732957,
+    "seen": 1794298045.157089,
+    "ast_hash": "fe436ef91729081343fe4b89eb76535d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image104.jpg": {
+    "mtime": 1794297493.973706,
+    "seen": 1794298045.15709,
+    "ast_hash": "9cf0f537f825ca7952d1ddf6d633bcc5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image105.jpg": {
+    "mtime": 1794297493.9743366,
+    "seen": 1794298045.1570911,
+    "ast_hash": "3f8e4d7ed6c3719faade231d5cd3e761",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image106.jpg": {
+    "mtime": 1794297493.9751809,
+    "seen": 1794298045.157092,
+    "ast_hash": "3f7f9fbcf15ae902b824c82dc68e8d66",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image107.jpg": {
+    "mtime": 1794297493.9759543,
+    "seen": 1794298045.157092,
+    "ast_hash": "e30b3d375fe7a64743e8b5ee9d0b79f8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image108.jpg": {
+    "mtime": 1794297493.9764893,
+    "seen": 1794298045.157093,
+    "ast_hash": "3a7f651e7f6526a90a7ec16894879b22",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image109.jpg": {
+    "mtime": 1794297493.9769359,
+    "seen": 1794298045.157094,
+    "ast_hash": "bb8718b96f8bffe679d72b703f684d9c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image11.jpg": {
+    "mtime": 1794297493.9772382,
+    "seen": 1794298045.157095,
+    "ast_hash": "efbbf9b253d846af6a03d83a2e31cd2d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image110.jpg": {
+    "mtime": 1794297493.9783375,
+    "seen": 1794298045.157096,
+    "ast_hash": "6f0aad23850ecc44bbf1533b70b54109",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image111.jpg": {
+    "mtime": 1794297493.9793887,
+    "seen": 1794298045.1570969,
+    "ast_hash": "275a2a3c830a181f3dc5127937c0384e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image112.jpg": {
+    "mtime": 1794297493.9799533,
+    "seen": 1794298045.1570969,
+    "ast_hash": "cf8c396b54e3fd11a7a3d9c064a08dbd",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image113.jpg": {
+    "mtime": 1794297493.980443,
+    "seen": 1794298045.157098,
+    "ast_hash": "861b89005a77c17680d1588ca0fc3e12",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image114.jpg": {
+    "mtime": 1794297493.9812226,
+    "seen": 1794298045.157099,
+    "ast_hash": "747e35d9faf2cc1b5e349412f5f850b2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image115.jpg": {
+    "mtime": 1794297493.9816155,
+    "seen": 1794298045.1571,
+    "ast_hash": "cf3df48f779d28203d13f0904118ade5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image116.jpg": {
+    "mtime": 1794297493.982043,
+    "seen": 1794298045.1571012,
+    "ast_hash": "a0b15288b6b85014b756bb342b853041",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image117.jpg": {
+    "mtime": 1794297493.982376,
+    "seen": 1794298045.157102,
+    "ast_hash": "33706b6fa0fdb5df2e2be47dce67978d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image118.jpg": {
+    "mtime": 1794297493.9830875,
+    "seen": 1794298045.157103,
+    "ast_hash": "66fe00fdb79eab5701efbda80e15c7e2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image119.jpg": {
+    "mtime": 1794297493.9835713,
+    "seen": 1794298045.157104,
+    "ast_hash": "e90a1bd7fd084fde2ab2c4f875721397",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image12.jpg": {
+    "mtime": 1794297493.9841125,
+    "seen": 1794298045.157105,
+    "ast_hash": "adf5232e3a7f55cdf3598a8dd2eb163f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image120.jpg": {
+    "mtime": 1794297493.9845722,
+    "seen": 1794298045.157105,
+    "ast_hash": "70b1d9c5650ff6a1f2e9d8c56b80b009",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image121.jpg": {
+    "mtime": 1794297493.9851162,
+    "seen": 1794298045.157106,
+    "ast_hash": "10d8c7b4e6f4a12f928cd643b49c166f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image122.jpg": {
+    "mtime": 1794297493.9861195,
+    "seen": 1794298045.1571069,
+    "ast_hash": "0c1431eee67b1085e21d7f0e74f23150",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image123.jpg": {
+    "mtime": 1794297493.9864998,
+    "seen": 1794298045.157108,
+    "ast_hash": "fc5cd2c31478372feeed5ed598ae4957",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image124.jpg": {
+    "mtime": 1794297493.9868615,
+    "seen": 1794298045.157109,
+    "ast_hash": "d8d546e647987f6bc3cfdc42bd9981a0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image125.jpg": {
+    "mtime": 1794297493.9871976,
+    "seen": 1794298045.157109,
+    "ast_hash": "b8152ce26d395f32d7153a7c1a3f35fe",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image126.jpg": {
+    "mtime": 1794297493.987504,
+    "seen": 1794298045.15711,
+    "ast_hash": "c485dab4086596f2ca4d68777c5c9bf9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image127.jpg": {
+    "mtime": 1794297493.9878254,
+    "seen": 1794298045.157111,
+    "ast_hash": "df4a413a3275d2a934223ccf42fb9ed3",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image128.jpg": {
+    "mtime": 1794297493.988332,
+    "seen": 1794298045.1571121,
+    "ast_hash": "61100ce4b02e428a15f56f90a0a901c2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image129.jpg": {
+    "mtime": 1794297493.9890103,
+    "seen": 1794298045.157113,
+    "ast_hash": "f4aed840f017f24ec4321b6f1e28e199",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image13.jpg": {
+    "mtime": 1794297493.9893427,
+    "seen": 1794298045.157114,
+    "ast_hash": "5c117a678c90a53d6e17aac5a6a176df",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image130.jpg": {
+    "mtime": 1794297493.9900777,
+    "seen": 1794298045.157115,
+    "ast_hash": "9ddc845069b3ed4d3ad9fb5026a14007",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image131.jpg": {
+    "mtime": 1794297493.9904308,
+    "seen": 1794298045.157115,
+    "ast_hash": "ca2b066655fd10f29ac283a2c6823c84",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image132.jpg": {
+    "mtime": 1794297493.9910922,
+    "seen": 1794298045.157116,
+    "ast_hash": "97553d745c6362caacfc455b43ad0abe",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image133.jpg": {
+    "mtime": 1794297493.991573,
+    "seen": 1794298045.157117,
+    "ast_hash": "ab7836a41bea6d6801782fe97b7442a0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image134.jpg": {
+    "mtime": 1794297493.9920752,
+    "seen": 1794298045.1571178,
+    "ast_hash": "abb59a8fde32b86a52b143a2bbcfefb5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image135.jpg": {
+    "mtime": 1794297493.9925635,
+    "seen": 1794298045.157119,
+    "ast_hash": "5a9efffe3dc8fe2ce7ef3016a3280ccb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image136.jpg": {
+    "mtime": 1794297493.9933217,
+    "seen": 1794298045.15712,
+    "ast_hash": "0cf6e3fac478f0385650f897b236e411",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image137.jpg": {
+    "mtime": 1794297493.993825,
+    "seen": 1794298045.15712,
+    "ast_hash": "11cec496ba53a630f15d7ed101dd7b86",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image138.jpg": {
+    "mtime": 1794297493.9941938,
+    "seen": 1794298045.157121,
+    "ast_hash": "6b27ebb1b76f3aed886fed7b83f5dd4d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image139.jpg": {
+    "mtime": 1794297493.9950712,
+    "seen": 1794298045.1571221,
+    "ast_hash": "dd03cab462a425e5f17221e7765149e3",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image14.jpg": {
+    "mtime": 1794297493.9953773,
+    "seen": 1794298045.157123,
+    "ast_hash": "15d2e8c648ae051b91847661bc700032",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image140.jpg": {
+    "mtime": 1794297493.995966,
+    "seen": 1794298045.157124,
+    "ast_hash": "25c22e3ce078bbbfd77a87de0ec1f586",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image141.jpg": {
+    "mtime": 1794297493.996527,
+    "seen": 1794298045.157124,
+    "ast_hash": "d1e0e4b89120b56cd46b7a9dc598e415",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image142.jpg": {
+    "mtime": 1794297493.997207,
+    "seen": 1794298045.1571252,
+    "ast_hash": "6f228938b5d6fe46240430ba6e8b1ddf",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image143.jpg": {
+    "mtime": 1794297493.9975789,
+    "seen": 1794298045.157126,
+    "ast_hash": "eb6605fc6d0661cd2a716d41dd19e02c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image144.jpg": {
+    "mtime": 1794297493.9982042,
+    "seen": 1794298045.157127,
+    "ast_hash": "7fb92d486962417029f4e052852dac53",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image145.jpg": {
+    "mtime": 1794297493.9986465,
+    "seen": 1794298045.1571279,
+    "ast_hash": "139315e4cb76dc456cc08019d83681cb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image146.jpg": {
+    "mtime": 1794297493.9992394,
+    "seen": 1794298045.157129,
+    "ast_hash": "0b0cab0075e35df45dda9b4faa153e28",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image147.jpg": {
+    "mtime": 1794297493.999646,
+    "seen": 1794298045.157129,
+    "ast_hash": "5dcbcc79c99318af0e373158cd161149",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image148.jpg": {
+    "mtime": 1794297494.0000663,
+    "seen": 1794298045.15713,
+    "ast_hash": "861b89005a77c17680d1588ca0fc3e12",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image149.jpg": {
+    "mtime": 1794297494.0021582,
+    "seen": 1794298045.157131,
+    "ast_hash": "d8d546e647987f6bc3cfdc42bd9981a0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image15.jpg": {
+    "mtime": 1794297494.002435,
+    "seen": 1794298045.1571321,
+    "ast_hash": "41ac16463af37dc78dc0b60ff21deb53",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image150.jpg": {
+    "mtime": 1794297494.002911,
+    "seen": 1794298045.157133,
+    "ast_hash": "5a9efffe3dc8fe2ce7ef3016a3280ccb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image151.jpg": {
+    "mtime": 1794297494.003343,
+    "seen": 1794298045.157134,
+    "ast_hash": "0b0cab0075e35df45dda9b4faa153e28",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image152.jpg": {
+    "mtime": 1794297494.0037029,
+    "seen": 1794298045.157135,
+    "ast_hash": "93d5ad818b3db7a3a651c439a92a29ef",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image153.jpg": {
+    "mtime": 1794297494.004053,
+    "seen": 1794298045.157135,
+    "ast_hash": "bdb7c138564c2fa764bbf72e878f5b98",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image154.jpg": {
+    "mtime": 1794297494.004408,
+    "seen": 1794298045.157136,
+    "ast_hash": "c30f058e9feceda9bf486302a96d3c7e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image155.jpg": {
+    "mtime": 1794297494.0050237,
+    "seen": 1794298045.157137,
+    "ast_hash": "434d3bfca8419fde8091dcdfb5f863a0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image156.jpg": {
+    "mtime": 1794297494.0054576,
+    "seen": 1794298045.1571379,
+    "ast_hash": "6e5a2d54d4e80b0d433355665bd0dafb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image157.jpg": {
+    "mtime": 1794297494.0058885,
+    "seen": 1794298045.157139,
+    "ast_hash": "bdb7c138564c2fa764bbf72e878f5b98",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image158.jpg": {
+    "mtime": 1794297494.00625,
+    "seen": 1794298045.15714,
+    "ast_hash": "354b803ffdfa2c4e0b376fb8c31176e2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image159.jpg": {
+    "mtime": 1794297494.0065856,
+    "seen": 1794298045.157141,
+    "ast_hash": "b7780aa19d5292d151fca467ede46e76",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image16.jpg": {
+    "mtime": 1794297494.0069191,
+    "seen": 1794298045.157142,
+    "ast_hash": "3e0bcb2db1ce0f59363112d1b6c7c974",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image160.jpg": {
+    "mtime": 1794297494.0072942,
+    "seen": 1794298045.157143,
+    "ast_hash": "a02a17b22c4c6ec9d0d5ac399b269472",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image161.jpg": {
+    "mtime": 1794297494.0076168,
+    "seen": 1794298045.157143,
+    "ast_hash": "2b9b272177ace6d107728d1b10f97b89",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image162.jpg": {
+    "mtime": 1794297494.0082128,
+    "seen": 1794298045.157144,
+    "ast_hash": "34716bd271cce9e1a4c6c307f93fde8e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image163.jpg": {
+    "mtime": 1794297494.0091114,
+    "seen": 1794298045.1571462,
+    "ast_hash": "efbbf9b253d846af6a03d83a2e31cd2d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image164.jpg": {
+    "mtime": 1794297494.0095227,
+    "seen": 1794298045.157147,
+    "ast_hash": "e2f80fa1d7d99a1c6e0b69214696c5c2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image165.jpg": {
+    "mtime": 1794297494.0099802,
+    "seen": 1794298045.157148,
+    "ast_hash": "4dc33ad9cc92c3d6f796d89e988ec50b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image166.jpg": {
+    "mtime": 1794297494.0104465,
+    "seen": 1794298045.157148,
+    "ast_hash": "a1c26311b7da299e6821a3154b3fddaa",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image167.jpg": {
+    "mtime": 1794297494.0109532,
+    "seen": 1794298045.1571488,
+    "ast_hash": "4e9751f94a3fac49bcab4e0337bd5a70",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image168.jpg": {
+    "mtime": 1794297494.0112689,
+    "seen": 1794298045.15715,
+    "ast_hash": "923da8d43b48ed489d91a28bb7fb2c59",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image169.jpg": {
+    "mtime": 1794297494.0119302,
+    "seen": 1794298045.157151,
+    "ast_hash": "b85528f1014de93bda3c11f3f3e7ab38",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image17.jpg": {
+    "mtime": 1794297494.0122674,
+    "seen": 1794298045.157152,
+    "ast_hash": "4c3cb0c071e5a9c5d6da5f9cf512976a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image170.jpg": {
+    "mtime": 1794297494.0127084,
+    "seen": 1794298045.1571531,
+    "ast_hash": "680d5813e89367f438c3eef19f93c3df",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image171.jpg": {
+    "mtime": 1794297494.013119,
+    "seen": 1794298045.157154,
+    "ast_hash": "6f228938b5d6fe46240430ba6e8b1ddf",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image172.jpg": {
+    "mtime": 1794297494.0135672,
+    "seen": 1794298045.157154,
+    "ast_hash": "90c400bb7035393665a55df7c1b282f5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image173.jpg": {
+    "mtime": 1794297494.0140269,
+    "seen": 1794298045.157155,
+    "ast_hash": "b421a0ba2d0d376c1436669be7866003",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image174.jpg": {
+    "mtime": 1794297494.0145292,
+    "seen": 1794298045.157156,
+    "ast_hash": "704641a82ccecb20cc3eac44f4edb4c3",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image175.jpg": {
+    "mtime": 1794297494.0150008,
+    "seen": 1794298045.1571572,
+    "ast_hash": "6c01a28f8a92712417a9282bde9c0ba8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image176.jpg": {
+    "mtime": 1794297494.0153823,
+    "seen": 1794298045.157158,
+    "ast_hash": "442239b49f50edef291d049f78ee8454",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image177.jpg": {
+    "mtime": 1794297494.0158496,
+    "seen": 1794298045.1571589,
+    "ast_hash": "fa3fc8c14ad066eac445f3285e0a752f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image178.jpg": {
+    "mtime": 1794297494.0161514,
+    "seen": 1794298045.15716,
+    "ast_hash": "3e3918ee133bde5468c8924af564f84f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image179.jpg": {
+    "mtime": 1794297494.016905,
+    "seen": 1794298045.15716,
+    "ast_hash": "c30f058e9feceda9bf486302a96d3c7e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image18.jpg": {
+    "mtime": 1794297494.0172324,
+    "seen": 1794298045.157161,
+    "ast_hash": "c1a129287af6d78dcd5442252be3fdb2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image180.jpg": {
+    "mtime": 1794297494.0178027,
+    "seen": 1794298045.157162,
+    "ast_hash": "39f5b15be6314599c3b21641ad639aa4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image181.jpg": {
+    "mtime": 1794297494.018201,
+    "seen": 1794298045.157163,
+    "ast_hash": "d75154c13c993587d7677835172695cc",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image182.jpg": {
+    "mtime": 1794297494.018682,
+    "seen": 1794298045.157164,
+    "ast_hash": "45a861c636920de14917f10d30b4d946",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image183.jpg": {
+    "mtime": 1794297494.0190964,
+    "seen": 1794298045.157165,
+    "ast_hash": "aa7ab52771af2b2a1292a4fb04e47586",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image184.jpg": {
+    "mtime": 1794297494.0195293,
+    "seen": 1794298045.157165,
+    "ast_hash": "995b29f04431ab136d8158a80ccfb5f5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image185.jpg": {
+    "mtime": 1794297494.0198572,
+    "seen": 1794298045.157166,
+    "ast_hash": "be8cca41cb592af38800bfa1c99517d5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image186.jpg": {
+    "mtime": 1794297494.0201852,
+    "seen": 1794298045.1571672,
+    "ast_hash": "27ba100a0b7e339d4112060900a0b13a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image187.jpg": {
+    "mtime": 1794297494.020501,
+    "seen": 1794298045.1571681,
+    "ast_hash": "b2a792e237736dc2c447494bdbb09ebe",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image188.jpg": {
+    "mtime": 1794297494.0208113,
+    "seen": 1794298045.1571689,
+    "ast_hash": "cc17b0230fdf0efeb47dbf4e6d55eec6",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image189.jpg": {
+    "mtime": 1794297494.021339,
+    "seen": 1794298045.1571689,
+    "ast_hash": "3e1cf3ad551f2fce147f54aa24228679",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image19.jpg": {
+    "mtime": 1794297494.0215855,
+    "seen": 1794298045.1571698,
+    "ast_hash": "a96abc98bd48b75d27a55c4780c0da61",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image190.jpg": {
+    "mtime": 1794297494.0221841,
+    "seen": 1794298045.157171,
+    "ast_hash": "434d3bfca8419fde8091dcdfb5f863a0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image191.jpg": {
+    "mtime": 1794297494.0226276,
+    "seen": 1794298045.157172,
+    "ast_hash": "b9d30342ed3f1c9b8dba46e640561f67",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image192.jpg": {
+    "mtime": 1794297494.0230641,
+    "seen": 1794298045.157173,
+    "ast_hash": "1b5b7368ee9ebf89a4397a55a5c5f866",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image193.jpg": {
+    "mtime": 1794297494.0234368,
+    "seen": 1794298045.157174,
+    "ast_hash": "e41bdce2d4f40fb9759a591081bd3f33",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image194.jpg": {
+    "mtime": 1794297494.023762,
+    "seen": 1794298045.157174,
+    "ast_hash": "9e8b3c1a7a96b55984c8e73d4ae0dd33",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image195.jpg": {
+    "mtime": 1794297494.0244224,
+    "seen": 1794298045.157175,
+    "ast_hash": "c5963fc515443d37180726b927991d92",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image196.jpg": {
+    "mtime": 1794297494.0247557,
+    "seen": 1794298045.157176,
+    "ast_hash": "bdc784415bc55faba69adb039befb442",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image197.jpg": {
+    "mtime": 1794297494.0251753,
+    "seen": 1794298045.157177,
+    "ast_hash": "f14e14eee248ccc50c5e32daf4da48e2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image198.jpg": {
+    "mtime": 1794297494.0256329,
+    "seen": 1794298045.1571782,
+    "ast_hash": "344e008b63e456a67242aa718f7ca3b7",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image199.jpg": {
+    "mtime": 1794297494.026135,
+    "seen": 1794298045.1571782,
+    "ast_hash": "62a639d60be58dbb349c83207cf99803",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image2.jpg": {
+    "mtime": 1794297494.0264406,
+    "seen": 1794298045.1571789,
+    "ast_hash": "8f157e7e3a20300710a5ef24834faadf",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image20.jpg": {
+    "mtime": 1794297494.0267878,
+    "seen": 1794298045.1571798,
+    "ast_hash": "5b14141a9b2ba04158cfda7a116e0e6d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image200.jpg": {
+    "mtime": 1794297494.0273921,
+    "seen": 1794298045.157181,
+    "ast_hash": "aeea466d11bbc79d09f44f183db4d69b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image201.jpg": {
+    "mtime": 1794297494.02778,
+    "seen": 1794298045.157182,
+    "ast_hash": "6e5a2d54d4e80b0d433355665bd0dafb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image202.jpg": {
+    "mtime": 1794297494.0281346,
+    "seen": 1794298045.157183,
+    "ast_hash": "9994515efe3227b39f3359c66789453f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image203.jpg": {
+    "mtime": 1794297494.028527,
+    "seen": 1794298045.157183,
+    "ast_hash": "572e1d89b9796c31e4a3c3157b84f15e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image204.jpg": {
+    "mtime": 1794297494.0289164,
+    "seen": 1794298045.157184,
+    "ast_hash": "2ec3379abce8acda723d193ead2e6a34",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image205.jpg": {
+    "mtime": 1794297494.0294588,
+    "seen": 1794298045.157185,
+    "ast_hash": "60008f315b4d5989c4b305daff659348",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image206.jpg": {
+    "mtime": 1794297494.0298138,
+    "seen": 1794298045.157186,
+    "ast_hash": "19cb2e523e8e2b6e3886d17c0809a1e1",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image207.jpg": {
+    "mtime": 1794297494.030221,
+    "seen": 1794298045.157187,
+    "ast_hash": "08e2902c60ee1bc5d68130755058d2cb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image208.jpg": {
+    "mtime": 1794297494.0305934,
+    "seen": 1794298045.1571882,
+    "ast_hash": "e4eacb03ec2b89dfe4d85b1643beb46b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image209.jpg": {
+    "mtime": 1794297494.030971,
+    "seen": 1794298045.1571891,
+    "ast_hash": "ab347a6da065a00a5c9070046bdf74cb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image21.jpg": {
+    "mtime": 1794297494.0312326,
+    "seen": 1794298045.1571891,
+    "ast_hash": "822865a6b6e436e44ba019f3a3a64d25",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image210.jpg": {
+    "mtime": 1794297494.0316792,
+    "seen": 1794298045.1571898,
+    "ast_hash": "9843dba1ed7817068c7b500cd95c25e8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image211.jpg": {
+    "mtime": 1794297494.0320382,
+    "seen": 1794298045.1571908,
+    "ast_hash": "7b8d134e5f569e76bed1077065b42ea0",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image212.jpg": {
+    "mtime": 1794297494.0324142,
+    "seen": 1794298045.157192,
+    "ast_hash": "354b803ffdfa2c4e0b376fb8c31176e2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image213.jpg": {
+    "mtime": 1794297494.03289,
+    "seen": 1794298045.157193,
+    "ast_hash": "1b4f11ab472f397d9702612e857a8904",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image214.jpg": {
+    "mtime": 1794297494.0334525,
+    "seen": 1794298045.157193,
+    "ast_hash": "133b4fba998cd9abcfc09718a6479343",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image215.jpg": {
+    "mtime": 1794297494.034306,
+    "seen": 1794298045.157194,
+    "ast_hash": "584fe6d3b786fdab4b855f8e1d2d1b67",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image216.jpg": {
+    "mtime": 1794297494.0347102,
+    "seen": 1794298045.157195,
+    "ast_hash": "8f6eae3b948546c17951fbef297fe9d5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image217.jpg": {
+    "mtime": 1794297494.0352318,
+    "seen": 1794298045.157196,
+    "ast_hash": "9359d9368e188025a59863b86c93ff0e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image218.jpg": {
+    "mtime": 1794297494.0363495,
+    "seen": 1794298045.157197,
+    "ast_hash": "ae4a42665de84b27345f10a92e897252",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image219.jpg": {
+    "mtime": 1794297494.0367825,
+    "seen": 1794298045.1571982,
+    "ast_hash": "494a19b01bab0dd5f4aeb565797ef10c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image22.jpg": {
+    "mtime": 1794297494.0370438,
+    "seen": 1794298045.1571982,
+    "ast_hash": "723bbd1e47a9e3e4c09fd4149471d404",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image220.jpg": {
+    "mtime": 1794297494.037643,
+    "seen": 1794298045.1571991,
+    "ast_hash": "1960013b9e9c7bf5c05748d627f354d8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image221.jpg": {
+    "mtime": 1794297494.0380278,
+    "seen": 1794298045.1571999,
+    "ast_hash": "b70a8dd234c6b4c3107f9e8cd8ee51c9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image222.jpg": {
+    "mtime": 1794297494.0384407,
+    "seen": 1794298045.1572008,
+    "ast_hash": "fb8954babaffc2b70d44f2c5ee0eefaf",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image223.jpg": {
+    "mtime": 1794297494.0388129,
+    "seen": 1794298045.157202,
+    "ast_hash": "0e6183fb001e039d7382db9059e2a82c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image224.jpg": {
+    "mtime": 1794297494.039186,
+    "seen": 1794298045.157203,
+    "ast_hash": "b7780aa19d5292d151fca467ede46e76",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image225.jpg": {
+    "mtime": 1794297494.0395546,
+    "seen": 1794298045.157203,
+    "ast_hash": "a02a17b22c4c6ec9d0d5ac399b269472",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image226.jpg": {
+    "mtime": 1794297494.0399253,
+    "seen": 1794298045.157204,
+    "ast_hash": "2b9b272177ace6d107728d1b10f97b89",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image227.jpg": {
+    "mtime": 1794297494.0402925,
+    "seen": 1794298045.157205,
+    "ast_hash": "34716bd271cce9e1a4c6c307f93fde8e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image228.jpg": {
+    "mtime": 1794297494.040667,
+    "seen": 1794298045.157206,
+    "ast_hash": "0ed32be07561f76118d75fbc8a318059",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image229.jpg": {
+    "mtime": 1794297494.0411384,
+    "seen": 1794298045.157207,
+    "ast_hash": "aec10039590f646adad19cd12a8226d8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image23.jpg": {
+    "mtime": 1794297494.0414407,
+    "seen": 1794298045.157208,
+    "ast_hash": "b8f0c71baf6789b8c599472cb860f917",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image230.jpg": {
+    "mtime": 1794297494.0419834,
+    "seen": 1794298045.157208,
+    "ast_hash": "57da092cb39a84c303d5738e3c46333c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image231.jpg": {
+    "mtime": 1794297494.042462,
+    "seen": 1794298045.1572092,
+    "ast_hash": "015a2d4811ad76234d55a56caa2248f2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image232.jpg": {
+    "mtime": 1794297494.0428507,
+    "seen": 1794298045.15721,
+    "ast_hash": "623bc9e574ea6eca18652a308009b73e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image233.jpg": {
+    "mtime": 1794297494.0432339,
+    "seen": 1794298045.1572108,
+    "ast_hash": "febe6dfb080ba778873dc8417933dfbd",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image234.jpg": {
+    "mtime": 1794297494.0437074,
+    "seen": 1794298045.157212,
+    "ast_hash": "a4fb3f23267e18f0423e3e36e58106dc",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image235.jpg": {
+    "mtime": 1794297494.0442197,
+    "seen": 1794298045.157213,
+    "ast_hash": "32124aff9d3ff792017a02bf821deeb4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image236.jpg": {
+    "mtime": 1794297494.0446594,
+    "seen": 1794298045.157213,
+    "ast_hash": "9a40eb6fd1c2e22ca782e98fdff550a7",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image237.jpg": {
+    "mtime": 1794297494.0450134,
+    "seen": 1794298045.157214,
+    "ast_hash": "1bb71406bceaa3ff731d22338cab9fc8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image238.jpg": {
+    "mtime": 1794297494.0454667,
+    "seen": 1794298045.1572149,
+    "ast_hash": "e4e35c147aad47b5f2a3691d70cf303b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image239.jpg": {
+    "mtime": 1794297494.0458105,
+    "seen": 1794298045.157216,
+    "ast_hash": "62a639d60be58dbb349c83207cf99803",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image24.jpg": {
+    "mtime": 1794297494.0460844,
+    "seen": 1794298045.157217,
+    "ast_hash": "d68d58538bcb7d3921067d90e2088a25",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image240.jpg": {
+    "mtime": 1794297494.0464177,
+    "seen": 1794298045.157217,
+    "ast_hash": "cb1148b9730763230d682bd8677c28b6",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image241.jpg": {
+    "mtime": 1794297494.046741,
+    "seen": 1794298045.157218,
+    "ast_hash": "f9f5e9635b6d1f6b208669b41ca6665f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image242.jpg": {
+    "mtime": 1794297494.0473814,
+    "seen": 1794298045.1572192,
+    "ast_hash": "340f2575ffecd2c857b1a87d53f19d93",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image243.jpg": {
+    "mtime": 1794297494.047891,
+    "seen": 1794298045.1572201,
+    "ast_hash": "c7948715d4192adaee5078468a935727",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image244.jpg": {
+    "mtime": 1794297494.048252,
+    "seen": 1794298045.157221,
+    "ast_hash": "0ec29fe36262cae3094e2645eba13f8a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image245.jpg": {
+    "mtime": 1794297494.0491583,
+    "seen": 1794298045.1572218,
+    "ast_hash": "379ada3aac3d957d22bdeaf415914e43",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image246.jpg": {
+    "mtime": 1794297494.049504,
+    "seen": 1794298045.1572218,
+    "ast_hash": "416807f0a282f50afe60f3976e5691f9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image247.jpg": {
+    "mtime": 1794297494.0499358,
+    "seen": 1794298045.157223,
+    "ast_hash": "3e1cf3ad551f2fce147f54aa24228679",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image248.jpg": {
+    "mtime": 1794297494.0507236,
+    "seen": 1794298045.157224,
+    "ast_hash": "865e9f60f80f35ab767c92f808cb60a7",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image249.jpg": {
+    "mtime": 1794297494.0513098,
+    "seen": 1794298045.157225,
+    "ast_hash": "0b64c0355d801518ca66c795c8cd4e84",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image25.jpg": {
+    "mtime": 1794297494.0520346,
+    "seen": 1794298045.157226,
+    "ast_hash": "7fb92d486962417029f4e052852dac53",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image26.jpg": {
+    "mtime": 1794297494.0528343,
+    "seen": 1794298045.157226,
+    "ast_hash": "139315e4cb76dc456cc08019d83681cb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image27.jpg": {
+    "mtime": 1794297494.0534139,
+    "seen": 1794298045.157227,
+    "ast_hash": "c1303e634271929ce9e81e0cc8c90a9f",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image28.jpg": {
+    "mtime": 1794297494.0538485,
+    "seen": 1794298045.157228,
+    "ast_hash": "3fbe5d620667d8964f25ec2d3c991d70",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image29.jpg": {
+    "mtime": 1794297494.0542006,
+    "seen": 1794298045.157229,
+    "ast_hash": "f6dd98665b8cc74264a7fcfe27f30c10",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image3.jpg": {
+    "mtime": 1794297494.054513,
+    "seen": 1794298045.1572301,
+    "ast_hash": "9e4558130a229f9fa00cb5d117251926",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image30.jpg": {
+    "mtime": 1794297494.0548198,
+    "seen": 1794298045.157231,
+    "ast_hash": "293ee23f46f8c42411509c9000d1ba9a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image31.jpg": {
+    "mtime": 1794297494.0551403,
+    "seen": 1794298045.157231,
+    "ast_hash": "e05a95eafb88746a0db28f2139de3f33",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image32.jpg": {
+    "mtime": 1794297494.05541,
+    "seen": 1794298045.157232,
+    "ast_hash": "0fbc4acabdcc2df5a04d8b7a721218ff",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image33.jpg": {
+    "mtime": 1794297494.0560076,
+    "seen": 1794298045.157233,
+    "ast_hash": "afc394baf1def96638ab907d4deadf99",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image34.jpg": {
+    "mtime": 1794297494.056266,
+    "seen": 1794298045.157234,
+    "ast_hash": "c23ce4d3f5fb50c3b9c387d440dfdc93",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image35.jpg": {
+    "mtime": 1794297494.056532,
+    "seen": 1794298045.157235,
+    "ast_hash": "d560bd5c6f2b6c6852feea9eaac4cd0b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image36.jpg": {
+    "mtime": 1794297494.0567865,
+    "seen": 1794298045.1572359,
+    "ast_hash": "c27771d2e6111dc1d2ddc7002d16a917",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image37.jpg": {
+    "mtime": 1794297494.057056,
+    "seen": 1794298045.1572359,
+    "ast_hash": "c56f0498d624f54f6ec7e46e3a93d5fd",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image38.jpg": {
+    "mtime": 1794297494.0575204,
+    "seen": 1794298045.157237,
+    "ast_hash": "27d8681bd102f2771964154664cda919",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image39.jpg": {
+    "mtime": 1794297494.0577877,
+    "seen": 1794298045.157238,
+    "ast_hash": "14e2dd0a5a54028ba275a0a90d6a009a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image4.jpg": {
+    "mtime": 1794297494.0581422,
+    "seen": 1794298045.157239,
+    "ast_hash": "97b497f808bf8307f4715128e1d7857a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image40.jpg": {
+    "mtime": 1794297494.0584595,
+    "seen": 1794298045.1572402,
+    "ast_hash": "5d05aea550e07e40c25763229914e890",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image41.jpg": {
+    "mtime": 1794297494.05874,
+    "seen": 1794298045.157241,
+    "ast_hash": "86df846daedba56d2da9020d211fbffe",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image42.jpg": {
+    "mtime": 1794297494.0590012,
+    "seen": 1794298045.157241,
+    "ast_hash": "20bf471c6217805330a55d9404a52e25",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image43.jpg": {
+    "mtime": 1794297494.05929,
+    "seen": 1794298045.157242,
+    "ast_hash": "99049e813257ae68a6e685e6f7cb0208",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image44.jpg": {
+    "mtime": 1794297494.0595841,
+    "seen": 1794298045.1572428,
+    "ast_hash": "5142bf502b9eaae32694b144102b0d84",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image45.jpg": {
+    "mtime": 1794297494.0598755,
+    "seen": 1794298045.157244,
+    "ast_hash": "7b2afceb25a2d943efbbc93b05b24940",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image46.jpg": {
+    "mtime": 1794297494.060146,
+    "seen": 1794298045.157245,
+    "ast_hash": "123c6319304bbf1f96b9e53683cafdd9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image47.jpg": {
+    "mtime": 1794297494.0604064,
+    "seen": 1794298045.1572459,
+    "ast_hash": "5e184c0a5a27eedeccbf76c2037d8522",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image48.jpg": {
+    "mtime": 1794297494.0607078,
+    "seen": 1794298045.1572459,
+    "ast_hash": "1f5907d4868bc1d6274227551fde4da2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image49.jpg": {
+    "mtime": 1794297494.060962,
+    "seen": 1794298045.157247,
+    "ast_hash": "e5f67f9712d6a9a9308a2ff17f6a5d3e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image5.jpg": {
+    "mtime": 1794297494.061227,
+    "seen": 1794298045.157248,
+    "ast_hash": "d4607f5c3f4569d8114a5b7d6ff147f9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image50.jpg": {
+    "mtime": 1794297494.0615194,
+    "seen": 1794298045.157249,
+    "ast_hash": "4be2ceb18e8f92626aff990759af5b20",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image51.jpg": {
+    "mtime": 1794297494.0618308,
+    "seen": 1794298045.1572502,
+    "ast_hash": "f859f1d492018cccb7cb9f721ab4d1c9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image52.jpg": {
+    "mtime": 1794297494.0621173,
+    "seen": 1794298045.1572511,
+    "ast_hash": "c4e760a127363a6f39483b6eaf1adc43",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image53.jpg": {
+    "mtime": 1794297494.0629454,
+    "seen": 1794298045.1572511,
+    "ast_hash": "7052c8882ebe7936f5a024b3c40380fb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image54.jpg": {
+    "mtime": 1794297494.0632222,
+    "seen": 1794298045.157252,
+    "ast_hash": "dc53d7911e2771ee6f997fe98d5baef6",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image55.jpg": {
+    "mtime": 1794297494.0634985,
+    "seen": 1794298045.157253,
+    "ast_hash": "7d2f1743c2ab622652f075c1b65e8807",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image56.jpg": {
+    "mtime": 1794297494.063818,
+    "seen": 1794298045.157254,
+    "ast_hash": "190b46bb687fa5aba09fc8d74db810c4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image57.jpg": {
+    "mtime": 1794297494.0641198,
+    "seen": 1794298045.157255,
+    "ast_hash": "b3b8451584928c6e5d5b0f042255ee9c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image58.jpg": {
+    "mtime": 1794297494.0644815,
+    "seen": 1794298045.157256,
+    "ast_hash": "c10be30c482239d4f1608b0be83fd64a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image59.jpg": {
+    "mtime": 1794297494.0647647,
+    "seen": 1794298045.157256,
+    "ast_hash": "af21f7852d71c29b5fc9723cf8bddb65",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image6.jpg": {
+    "mtime": 1794297494.0655086,
+    "seen": 1794298045.1572568,
+    "ast_hash": "61832a8383a67db226d176fa998109b2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image60.jpg": {
+    "mtime": 1794297494.0657685,
+    "seen": 1794298045.157258,
+    "ast_hash": "005975e2105ca66fb5f018f3d96a1dae",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image61.jpg": {
+    "mtime": 1794297494.066778,
+    "seen": 1794298045.157259,
+    "ast_hash": "0c8169d611aa194f9b3ccd79f095dc75",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image62.jpg": {
+    "mtime": 1794297494.0673199,
+    "seen": 1794298045.15726,
+    "ast_hash": "cf7e12ce73e64bda58ea7f131d8dfeb1",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image63.jpg": {
+    "mtime": 1794297494.0678878,
+    "seen": 1794298045.15726,
+    "ast_hash": "524adcca9dc842ddf63328bb1db8539d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image64.jpg": {
+    "mtime": 1794297494.0683155,
+    "seen": 1794298045.1572611,
+    "ast_hash": "6bb7b99ebd8532a9f0ee52b0475e4ce1",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image65.jpg": {
+    "mtime": 1794297494.0687525,
+    "seen": 1794298045.157262,
+    "ast_hash": "123c6319304bbf1f96b9e53683cafdd9",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image66.jpg": {
+    "mtime": 1794297494.0691934,
+    "seen": 1794298045.157263,
+    "ast_hash": "a5c0e70daa4bff3328f85985ca951422",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image67.jpg": {
+    "mtime": 1794297494.069679,
+    "seen": 1794298045.1572638,
+    "ast_hash": "616b283e62e25149b467d8516ca67269",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image68.jpg": {
+    "mtime": 1794297494.0701365,
+    "seen": 1794298045.157265,
+    "ast_hash": "d4be53aa44896d1de8b5ddbec5555325",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image69.jpg": {
+    "mtime": 1794297494.0705838,
+    "seen": 1794298045.157265,
+    "ast_hash": "69d7db572594d607ceaed0ad7c21d4e7",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image7.jpg": {
+    "mtime": 1794297494.071025,
+    "seen": 1794298045.157266,
+    "ast_hash": "8ca79763569b5bda4133fca2f4453c8b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image70.jpg": {
+    "mtime": 1794297494.0717409,
+    "seen": 1794298045.1572669,
+    "ast_hash": "2d0fa1188260bffb228b528044dba7e8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image71.jpg": {
+    "mtime": 1794297494.072289,
+    "seen": 1794298045.157268,
+    "ast_hash": "03b7db407597fdf33198af628da54966",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image72.jpg": {
+    "mtime": 1794297494.0726826,
+    "seen": 1794298045.157269,
+    "ast_hash": "0e57f9ae5867f4a47cb86eb703677418",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image73.jpg": {
+    "mtime": 1794297494.0731163,
+    "seen": 1794298045.15727,
+    "ast_hash": "59a49a2e282fbd80360b3d9cc7b96423",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image74.jpg": {
+    "mtime": 1794297494.073522,
+    "seen": 1794298045.15727,
+    "ast_hash": "f4d5d0cd1d2d07d7298d0e85f55fca09",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image75.jpg": {
+    "mtime": 1794297494.0741203,
+    "seen": 1794298045.1572711,
+    "ast_hash": "9cad92cc269b85e7f89e4938ec485c9a",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image76.jpg": {
+    "mtime": 1794297494.0744877,
+    "seen": 1794298045.157272,
+    "ast_hash": "03d9dae5da433e2cef6f9624adc7a0f2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image77.jpg": {
+    "mtime": 1794297494.074797,
+    "seen": 1794298045.157273,
+    "ast_hash": "f50c32b4ce0122ae08d0cac535be76a4",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image78.jpg": {
+    "mtime": 1794297494.0751245,
+    "seen": 1794298045.157274,
+    "ast_hash": "d6ba1e6249a621df54f3e94d814dccb2",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image79.jpg": {
+    "mtime": 1794297494.0754328,
+    "seen": 1794298045.157274,
+    "ast_hash": "a7628c29f73a04c751f7c14bf76caeaf",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image8.jpg": {
+    "mtime": 1794297494.0756896,
+    "seen": 1794298045.157275,
+    "ast_hash": "60755c230802a90274f009bfc6acb8df",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image80.jpg": {
+    "mtime": 1794297494.0761364,
+    "seen": 1794298045.157276,
+    "ast_hash": "eff73f662b9a3ae2f4bdc7a6fc3bbd7b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image81.jpg": {
+    "mtime": 1794297494.076409,
+    "seen": 1794298045.1572769,
+    "ast_hash": "b9adb11d6ea25322ce5a268e5b76aafe",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image82.jpg": {
+    "mtime": 1794297494.0769162,
+    "seen": 1794298045.157278,
+    "ast_hash": "650cc6e92006eb3084325d96acd70e74",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image83.jpg": {
+    "mtime": 1794297494.077224,
+    "seen": 1794298045.157279,
+    "ast_hash": "11c5cf31d5ea604166d14ee38afe55fb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image84.jpg": {
+    "mtime": 1794297494.0775206,
+    "seen": 1794298045.157279,
+    "ast_hash": "b23cd958aab32335ba59055d60f43839",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image85.jpg": {
+    "mtime": 1794297494.077958,
+    "seen": 1794298045.15728,
+    "ast_hash": "3a0ef1735ef674828220e819fddf66bc",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image86.jpg": {
+    "mtime": 1794297494.0783222,
+    "seen": 1794298045.157281,
+    "ast_hash": "cb75b3c92d637e95e8d29e43b214eb48",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image87.jpg": {
+    "mtime": 1794297494.078605,
+    "seen": 1794298045.157282,
+    "ast_hash": "f09d5400885de4e245051015666004eb",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image88.jpg": {
+    "mtime": 1794297494.079129,
+    "seen": 1794298045.157283,
+    "ast_hash": "4fc70973726ca1dbd2302686c194af8d",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image89.jpg": {
+    "mtime": 1794297494.0794563,
+    "seen": 1794298045.157284,
+    "ast_hash": "f76736a1324bac8ee1bd048b9b5ca609",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image9.jpg": {
+    "mtime": 1794297494.0796947,
+    "seen": 1794298045.1572852,
+    "ast_hash": "b0476e802e340e278b6abca38a6267a5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image90.jpg": {
+    "mtime": 1794297494.0801234,
+    "seen": 1794298045.1572852,
+    "ast_hash": "7e057cbb09b5a004b86927e09cae78bd",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image91.jpg": {
+    "mtime": 1794297494.0804691,
+    "seen": 1794298045.157286,
+    "ast_hash": "5f8a7a0cb42e4feb3afa4e5cf87f89d6",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image92.jpg": {
+    "mtime": 1794297494.081445,
+    "seen": 1794298045.157287,
+    "ast_hash": "4a7b5390f50fda7e7cf59e27afe3a5a6",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image93.jpg": {
+    "mtime": 1794297494.0817797,
+    "seen": 1794298045.1572921,
+    "ast_hash": "a97fa56202ea489477b0903fe901589b",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image94.jpg": {
+    "mtime": 1794297494.0821714,
+    "seen": 1794298045.157293,
+    "ast_hash": "4dbb77b650039bc188e0f1d0249d27c5",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image95.jpg": {
+    "mtime": 1794297494.0827765,
+    "seen": 1794298045.157294,
+    "ast_hash": "7913d7c8157445453dfdaed8b8e9c0b8",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image96.jpg": {
+    "mtime": 1794297494.0831802,
+    "seen": 1794298045.157295,
+    "ast_hash": "51a112070bfaac0a9f448ac108bdc519",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image97.jpg": {
+    "mtime": 1794297494.0839262,
+    "seen": 1794298045.1572962,
+    "ast_hash": "b284426e9924996a74252562bcd2320c",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image98.jpg": {
+    "mtime": 1794297494.0844383,
+    "seen": 1794298045.1572962,
+    "ast_hash": "caaca4174a485146b69224b1e3cba05e",
+    "semantic_hash": ""
+  },
+  "docs/adr/assets/image/validation/sneakers/image99.jpg": {
+    "mtime": 1794297494.0847743,
+    "seen": 1794298045.157297,
+    "ast_hash": "aa7ab52771af2b2a1292a4fb04e47586",
+    "semantic_hash": ""
+  },
+  ".scratch/architecture-governance/issues/01-synthesize-agents-and-glossary.md": {
+    "mtime": 1794298062.21107,
+    "seen": 1794298067.125175,
+    "ast_hash": "42bda192e53e27c7b95630f464144ff2",
+    "semantic_hash": ""
+  },
+  ".scratch/architecture-governance/spec.md": {
+    "mtime": 1794298058.0081735,
+    "seen": 1794298067.125176,
+    "ast_hash": "55c7453fffd94bc0edecb602eaad79e2",
+    "semantic_hash": ""
+  },
+  "scripts/download_from_roboflow.py": {
+    "mtime": 1794298934.641025,
+    "seen": 1794298948.126671,
+    "ast_hash": "3b704f430e7622f6ead441b4f027ca9d",
+    "semantic_hash": ""
+  },
+  "scripts/upload_to_roboflow.py": {
+    "mtime": 1794298928.301053,
+    "seen": 1794298948.1266718,
+    "ast_hash": "3e29f890feca9bda84e5cebec878dac9",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_5eafade5-a8ef-49fa-8f4f-6811468241e1.json": {
+    "mtime": 1794298848.1584532,
+    "seen": 1794298948.1266618,
+    "ast_hash": "fb3ddc63aaabe073739d2ac5d81ef6a3",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_b56d63cf-c4c6-46bc-bb99-e0ab2b4a666f.json": {
+    "mtime": 1794298838.8955295,
+    "seen": 1794298948.126663,
+    "ast_hash": "1f7283df019666e2c503b157ac70adbe",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/edits/01-complete-upload-and-address-review.md": {
+    "mtime": 1794302581.0759397,
+    "seen": 1794302604.906788,
+    "ast_hash": "2c8f85bca3910bb97afc0da74bf01931",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/feedback/01-review-and-completion-tick.md": {
+    "mtime": 1794298876.0183854,
+    "seen": 1794298948.126688,
+    "ast_hash": "a013efb67a1bc6857d66a39529241347",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_f2307230-7a44-46a7-be21-fe741cbb7bbc.json": {
+    "mtime": 1794303293.853193,
+    "seen": 1794305495.828917,
+    "ast_hash": "c4aab5095f4f106f8eb63c77f985fe3b",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/incidents/2026-11-10-spec-freeze-gate-false-positive.md": {
+    "mtime": 1794299441.4763129,
+    "seen": 1794302440.347373,
+    "ast_hash": "a993f4ce9e37bcef606339d08cb7bd4d",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/edits/02-fix-freezing-and-tick-issues.md": {
+    "mtime": 1794302398.736841,
+    "seen": 1794302440.347401,
+    "ast_hash": "fc666d4553bd589616707a075c576a2c",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/feedback/02-fix-freezing-and-tick-issues.md": {
+    "mtime": 1794302432.861332,
+    "seen": 1794302440.347403,
+    "ast_hash": "66729f506baccc34ee2884fe0a937d62",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/incident-spec-freeze.md": {
+    "mtime": 1794299430.76261,
+    "seen": 1794302440.347404,
+    "ast_hash": "db2c4751d72c49156e2b39e7596357fa",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-162500-handoff.md": {
+    "mtime": 1794303048.519797,
+    "seen": 1794305495.8289468,
+    "ast_hash": "128681d306964dbee348b5c488e36e37",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-dataset-upload/handoff.md": {
+    "mtime": 1794303054.840671,
+    "seen": 1794305495.8289511,
+    "ast_hash": "128681d306964dbee348b5c488e36e37",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_53d01950-0200-45a6-acef-281cbefc05fa.json": {
+    "mtime": 1794306265.9993281,
+    "seen": 1794306724.4094028,
+    "ast_hash": "92924170b359388ac019674249a5829a",
+    "semantic_hash": ""
+  },
+  "main.py": {
+    "mtime": 1794303787.1997252,
+    "seen": 1794305495.828923,
+    "ast_hash": "725dbf6f7562da0655f1b65d29a3fbb7",
+    "semantic_hash": ""
+  },
+  "pyproject.toml": {
+    "mtime": 1794306896.8909142,
+    "seen": 1794307503.198257,
+    "ast_hash": "2b49182c6f2df9dddf8fcf2b7f65b09f",
+    "semantic_hash": ""
+  },
+  "scripts/evaluate_and_export.py": {
+    "mtime": 1794323055.6717658,
+    "seen": 1794324311.355416,
+    "ast_hash": "02e34553012708cf745c31fc9641f167",
+    "semantic_hash": ""
+  },
+  "scripts/train_sneaker_model.py": {
+    "mtime": 1794322899.6926901,
+    "seen": 1794324311.3554199,
+    "ast_hash": "83d504dcca525d3d8422834e0754b6ec",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_preflight.py": {
+    "mtime": 1794304126.3559306,
+    "seen": 1794305495.828928,
+    "ast_hash": "68c224d080805c8feb473b8f8dc11733",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_sneaker_model.py": {
+    "mtime": 1794305435.8766813,
+    "seen": 1794305495.828929,
+    "ast_hash": "1fb51b5ce65c1427f6840ad832643445",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-model-training/issues/01-project-dependencies-and-hardware-preflight.md": {
+    "mtime": 1794304190.5739622,
+    "seen": 1794305495.828956,
+    "ast_hash": "f3369325e9af2cf0a91f2699993081d9",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-model-training/issues/02-sneaker-model-fine-tuning.md": {
+    "mtime": 1794305348.773148,
+    "seen": 1794305495.8289568,
+    "ast_hash": "9e509e7726451c6fec1f69642fb1dd00",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-model-training/issues/03-metric-evaluation-and-model-export.md": {
+    "mtime": 1794305481.1455524,
+    "seen": 1794305495.828958,
+    "ast_hash": "b67d40d472cca85e40a57aa3ad0f510a",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-model-training/spec.md": {
+    "mtime": 1794303659.641958,
+    "seen": 1794305495.828958,
+    "ast_hash": "90142fe988fba7adec75043c3ee21f25",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1794326246.2229986,
+    "seen": 1794326296.5537128,
+    "ast_hash": "35be1ec1f96bfcdcf04c5dcb9d2c1469",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_d6572f5a-e8d3-47ef-b034-d4307abd3be3.json": {
+    "mtime": 1794312222.7298906,
+    "seen": 1794312475.221441,
+    "ast_hash": "2e47c69d4056afdcb491b7cce685bb16",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/issues/01-frame-source-abstraction.md": {
+    "mtime": 1794306928.4096026,
+    "seen": 1794307503.1983192,
+    "ast_hash": "0606cce4bb289c75b9edf49fec0250a8",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/issues/02-person-detection-and-tracking.md": {
+    "mtime": 1794307137.3231382,
+    "seen": 1794307503.1983202,
+    "ast_hash": "217937c48e7f6122daa2c5024b137fd3",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/issues/03-virtual-line-tripwire.md": {
+    "mtime": 1794307320.6377766,
+    "seen": 1794307503.1983209,
+    "ast_hash": "5d23e5bbb6469a2f37761154c256b679",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/issues/04-lower-body-roi-and-sneaker-inspection.md": {
+    "mtime": 1794307391.3285525,
+    "seen": 1794307503.1983218,
+    "ast_hash": "89ce7b0523a2014ceadb555d67b635b2",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/issues/05-decoupled-concurrency-and-main-loop.md": {
+    "mtime": 1794307494.4188797,
+    "seen": 1794307503.198323,
+    "ast_hash": "eb88d3ba4aed05762ed4fb9f770246af",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/spec.md": {
+    "mtime": 1794306690.3415859,
+    "seen": 1794306724.409466,
+    "ast_hash": "2c09b7ce960517920b18c02e3c6f8ff1",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-171500-handoff.md": {
+    "mtime": 1794305546.7143874,
+    "seen": 1794306724.409469,
+    "ast_hash": "ba20d8def454aaaffa044949c3c70489",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-172321-handoff.md": {
+    "mtime": 1794306265.9524891,
+    "seen": 1794306724.4094698,
+    "ast_hash": "faa218376ce4f3a1ad0b638ce93c420e",
+    "semantic_hash": ""
+  },
+  ".scratch/sneaker-model-training/handoff.md": {
+    "mtime": 1794305527.5582352,
+    "seen": 1794306724.4094841,
+    "ast_hash": "ba20d8def454aaaffa044949c3c70489",
+    "semantic_hash": ""
+  },
+  "src/__init__.py": {
+    "mtime": 1794306822.746922,
+    "seen": 1794307503.1982641,
+    "ast_hash": "4a5d85a004c38b6f4c73b2c706d9deb6",
+    "semantic_hash": ""
+  },
+  "src/capture/__init__.py": {
+    "mtime": 1794306856.5927837,
+    "seen": 1794307503.198266,
+    "ast_hash": "725ba907526cd72b600c7d8a1a9e921c",
+    "semantic_hash": ""
+  },
+  "src/capture/base.py": {
+    "mtime": 1794306828.5108125,
+    "seen": 1794307503.198268,
+    "ast_hash": "d298a1deea8bc6abc1979379aeed8ec3",
+    "semantic_hash": ""
+  },
+  "src/capture/camera.py": {
+    "mtime": 1794307835.4159229,
+    "seen": 1794307874.548013,
+    "ast_hash": "07a1d7323eaae27d3a66f35cee17a4f3",
+    "semantic_hash": ""
+  },
+  "src/capture/synthetic.py": {
+    "mtime": 1794306836.0140934,
+    "seen": 1794307503.198269,
+    "ast_hash": "01e6e0342ce0a1b35f60935db0fa8836",
+    "semantic_hash": ""
+  },
+  "src/capture/video_file.py": {
+    "mtime": 1794306891.0271034,
+    "seen": 1794307503.1982698,
+    "ast_hash": "64f8e217ebedc3fa10681e3e04d8f88a",
+    "semantic_hash": ""
+  },
+  "src/config/__init__.py": {
+    "mtime": 1794307425.1898453,
+    "seen": 1794307503.198271,
+    "ast_hash": "c099b338bed5f405f7fa42c5351f53d1",
+    "semantic_hash": ""
+  },
+  "src/config/settings.py": {
+    "mtime": 1794313558.371557,
+    "seen": 1794313679.360096,
+    "ast_hash": "429c66e1b001551158c1f99b0c3f5d0f",
+    "semantic_hash": ""
+  },
+  "src/footwear/__init__.py": {
+    "mtime": 1794307370.764653,
+    "seen": 1794307503.198273,
+    "ast_hash": "00f1b36b460ad2acf96bebf87d98ae28",
+    "semantic_hash": ""
+  },
+  "src/footwear/inspector.py": {
+    "mtime": 1794307366.5346801,
+    "seen": 1794307503.1982741,
+    "ast_hash": "7390d8a1809868b89aa86ce1d8a6d110",
+    "semantic_hash": ""
+  },
+  "src/footwear/roi.py": {
+    "mtime": 1794307355.857663,
+    "seen": 1794307503.198275,
+    "ast_hash": "6a889406dffb4116f958f5c8b08809c8",
+    "semantic_hash": ""
+  },
+  "src/main.py": {
+    "mtime": 1794313066.2845318,
+    "seen": 1794313214.427202,
+    "ast_hash": "45b1575a3c578dd8f1552040137cc7e8",
+    "semantic_hash": ""
+  },
+  "src/pipeline/__init__.py": {
+    "mtime": 1794307447.7490559,
+    "seen": 1794307503.198276,
+    "ast_hash": "6c509640f49215b73ad178b5440298e1",
+    "semantic_hash": ""
+  },
+  "src/pipeline/coordinator.py": {
+    "mtime": 1794324868.9626253,
+    "seen": 1794325121.34977,
+    "ast_hash": "1ffb3055a09700186f747250a82e0084",
+    "semantic_hash": ""
+  },
+  "src/tracking/__init__.py": {
+    "mtime": 1794306967.8006697,
+    "seen": 1794307503.198278,
+    "ast_hash": "c06f4757e2f5e957b0a7fa5be00ef27e",
+    "semantic_hash": ""
+  },
+  "src/tracking/anchor.py": {
+    "mtime": 1794306953.6247995,
+    "seen": 1794307503.198279,
+    "ast_hash": "c4ff8fb76bf314a52a04f789c53cb27c",
+    "semantic_hash": ""
+  },
+  "src/tracking/person_tracker.py": {
+    "mtime": 1794313572.0844984,
+    "seen": 1794313679.3601139,
+    "ast_hash": "4bb61825c8bad1cf983db6e7b7cd76dd",
+    "semantic_hash": ""
+  },
+  "src/tripwire/__init__.py": {
+    "mtime": 1794307212.6784003,
+    "seen": 1794307503.198281,
+    "ast_hash": "043dc3d7b4c492cc78db35ffe73c4468",
+    "semantic_hash": ""
+  },
+  "src/tripwire/zone.py": {
+    "mtime": 1794313583.7969463,
+    "seen": 1794313679.360116,
+    "ast_hash": "b88e73c08bed29f072cffd0f0b900348",
+    "semantic_hash": ""
+  },
+  "tests/integration/test_pipeline.py": {
+    "mtime": 1794311323.3863878,
+    "seen": 1794311381.3228102,
+    "ast_hash": "96615a8337e68f563edd2095e8400e1a",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_capture.py": {
+    "mtime": 1794306811.9666626,
+    "seen": 1794307503.1982841,
+    "ast_hash": "b4f1b51d5d59dfbc907e97f725a5686e",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_footwear.py": {
+    "mtime": 1794307336.9304795,
+    "seen": 1794307503.198285,
+    "ast_hash": "b2b823df092607221e84f99a740ee97a",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_tracking.py": {
+    "mtime": 1794313640.5569453,
+    "seen": 1794313679.36013,
+    "ast_hash": "b066326c209809095abd278fb8665e0c",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_tripwire.py": {
+    "mtime": 1794311250.1007342,
+    "seen": 1794311381.322819,
+    "ast_hash": "173a24b1860ef0e3ecc3e7b3a78e63a2",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-174500-handoff.md": {
+    "mtime": 1794307529.4018877,
+    "seen": 1794307534.922105,
+    "ast_hash": "37597b73cfca9270bb7ae089b5f6e208",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/edits/01-avfoundation-camera-backend.md": {
+    "mtime": 1794307867.6235187,
+    "seen": 1794307874.548068,
+    "ast_hash": "3778f7f9d713a1260a08f4c357a95f41",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/feedback/01-avfoundation-camera-backend.md": {
+    "mtime": 1794307858.7191033,
+    "seen": 1794307874.5480692,
+    "ast_hash": "3cd837dae5350819493755ce9220c7f8",
+    "semantic_hash": ""
+  },
+  "src/pipeline/hud.py": {
+    "mtime": 1794313628.1084228,
+    "seen": 1794313679.360105,
+    "ast_hash": "fcbf3e387d5bdc2571b96ba8331bd021",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/edits/02-live-video-gui-preview.md": {
+    "mtime": 1794308089.7469008,
+    "seen": 1794308098.501478,
+    "ast_hash": "32c015c2eed64e74ae0150de8ea07ebf",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/feedback/02-live-video-gui-preview.md": {
+    "mtime": 1794308080.0245056,
+    "seen": 1794308098.501482,
+    "ast_hash": "1275ca27df40493d829887bdb2513ae4",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/edits/03-lateral-side-view-vertical-tripwire.md": {
+    "mtime": 1794311366.184493,
+    "seen": 1794311381.32285,
+    "ast_hash": "000d10f97e274f3af6c2d967afcacd7d",
+    "semantic_hash": ""
+  },
+  ".scratch/core-video-pipeline/feedback/03-lateral-side-view-vertical-tripwire.md": {
+    "mtime": 1794311350.5823543,
+    "seen": 1794311381.3228538,
+    "ast_hash": "b70c31eb8bfcf889aaa6198e50b9300b",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-190148-handoff.md": {
+    "mtime": 1794312183.7106524,
+    "seen": 1794312222.605164,
+    "ast_hash": "6ebf6f8cd4de9692ec308c7c59380b0b",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_db7d3848-d67b-46b0-b926-54a74e26c776.json": {
+    "mtime": 1794317906.2696729,
+    "seen": 1794322538.473475,
+    "ast_hash": "65433abc822deef7c5314547eb8164fb",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/issues/01-sqlite-event-repository.md": {
+    "mtime": 1794313174.4599102,
+    "seen": 1794313214.427299,
+    "ast_hash": "f0dea5a9655c1505b160081bffbdbe28",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/issues/02-evidence-image-writer.md": {
+    "mtime": 1794313183.8511572,
+    "seen": 1794313214.4273002,
+    "ast_hash": "92c04a90da52f7ef0c529fa5910d24fb",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/issues/03-pipeline-worker-storage-integration.md": {
+    "mtime": 1794313188.1143847,
+    "seen": 1794313214.4273012,
+    "ast_hash": "59a01e00a813507f6685eae58043ff88",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/issues/04-active-dataset-curation-and-export.md": {
+    "mtime": 1794313193.7270937,
+    "seen": 1794313214.427302,
+    "ast_hash": "f932050351808ed5c1b1e8382f7d10d3",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/spec.md": {
+    "mtime": 1794312428.985197,
+    "seen": 1794312475.221568,
+    "ast_hash": "895524f319b1544fad2ecbd15abb68a7",
+    "semantic_hash": ""
+  },
+  "scripts/export_dataset.py": {
+    "mtime": 1794313138.9306018,
+    "seen": 1794313214.427184,
+    "ast_hash": "5753dd2f6168213ecc538d14589f125f",
+    "semantic_hash": ""
+  },
+  "src/storage/__init__.py": {
+    "mtime": 1794313121.3961506,
+    "seen": 1794313214.4272058,
+    "ast_hash": "cbea4daf7630d469ffec023c08dabeea",
+    "semantic_hash": ""
+  },
+  "src/storage/dataset_exporter.py": {
+    "mtime": 1794313118.0702605,
+    "seen": 1794313214.427208,
+    "ast_hash": "ebd5e8a08b588f890be8f57c902f1ea1",
+    "semantic_hash": ""
+  },
+  "src/storage/evidence_writer.py": {
+    "mtime": 1794324832.103712,
+    "seen": 1794325121.3497758,
+    "ast_hash": "23462c5790adef04782217dccc2ab0f7",
+    "semantic_hash": ""
+  },
+  "src/storage/repository.py": {
+    "mtime": 1794312845.3633404,
+    "seen": 1794313214.42721,
+    "ast_hash": "18ba6032abf254dcfa8a181d3236ae6d",
+    "semantic_hash": ""
+  },
+  "tests/integration/test_storage_pipeline.py": {
+    "mtime": 1794312937.5713115,
+    "seen": 1794313214.427219,
+    "ast_hash": "799f4c09491e4d14c35083c7c45717fe",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_dataset_exporter.py": {
+    "mtime": 1794313098.387586,
+    "seen": 1794313214.427221,
+    "ast_hash": "853bbb43c5a81bcd60a0455b8ba451dc",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_evidence_writer.py": {
+    "mtime": 1794324930.222212,
+    "seen": 1794325121.349795,
+    "ast_hash": "2479d690686541ac850f9f203319894f",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_storage.py": {
+    "mtime": 1794312774.7214894,
+    "seen": 1794313214.4272268,
+    "ast_hash": "aa0795cfb5de45307de95d5da981b217",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/edits/01-implement-storage-and-evidence-pipeline.md": {
+    "mtime": 1794313205.4361188,
+    "seen": 1794313214.427297,
+    "ast_hash": "eb3ef413069c65fd450857fb0b7386c4",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/feedback/01-implement-storage-and-evidence-pipeline.md": {
+    "mtime": 1794313197.913015,
+    "seen": 1794313214.427298,
+    "ast_hash": "5af0d3584146f172fdcc8389f2e69bb1",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/edits/02-tracker-id-stability-and-reset.md": {
+    "mtime": 1794313673.6092145,
+    "seen": 1794313679.360201,
+    "ast_hash": "f833a02f47cb9ad47e4a3baed267c42c",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/feedback/02-tracker-id-stability-and-reset.md": {
+    "mtime": 1794313664.4881697,
+    "seen": 1794313679.360204,
+    "ast_hash": "2462a28754f20a67a68ebb4ed65a0950",
+    "semantic_hash": ""
+  },
+  "src/config/bytetrack.yaml": {
+    "mtime": 1794313534.4434192,
+    "seen": 1794313679.360223,
+    "ast_hash": "7599d224efdce8b0e8e10b14d71f5479",
+    "semantic_hash": ""
+  },
+  "scripts/curate_and_annotate_all.py": {
+    "mtime": 1794315357.7948308,
+    "seen": 1794315721.979558,
+    "ast_hash": "d59f3b6920d25d64d664c915b1d7ce4b",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/edits/03-curate-and-annotate-both-feet.md": {
+    "mtime": 1794315704.9797013,
+    "seen": 1794315721.979678,
+    "ast_hash": "3029f49c279d2ac0eab7b5f12fdf1dda",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/feedback/03-curate-and-annotate-both-feet.md": {
+    "mtime": 1794315682.0619173,
+    "seen": 1794315721.979681,
+    "ast_hash": "efb8c709f377d52c4f5aef4d285cc58f",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/edits/04-annotate-occluded-blurred-second-shoes.md": {
+    "mtime": 1794316327.599025,
+    "seen": 1794316340.6745229,
+    "ast_hash": "51db17030eea253d2f871c2a61933a86",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/feedback/04-annotate-occluded-blurred-second-shoes.md": {
+    "mtime": 1794316312.5959582,
+    "seen": 1794316340.674528,
+    "ast_hash": "c4712491819f22bc8118ec828109ba4e",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/edits/05-dark-sneaker-augmentation-and-adr.md": {
+    "mtime": 1794317882.8638887,
+    "seen": 1794317906.036396,
+    "ast_hash": "0d8993ab1bfbb4600f1424fae9c02a3e",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/feedback/05-dark-sneaker-augmentation-and-adr.md": {
+    "mtime": 1794317827.4764047,
+    "seen": 1794317906.036405,
+    "ast_hash": "eda63f0bd1bce63efc37f41a7a8762ac",
+    "semantic_hash": ""
+  },
+  ".scratch/storage-and-evidence/handoff.md": {
+    "mtime": 1794317870.4141982,
+    "seen": 1794317906.036406,
+    "ast_hash": "8bd68c2ffd7875b107b8c171ea5604e4",
+    "semantic_hash": ""
+  },
+  "docs/adr/0007-dark-sneaker-image-processing-and-training-augmentation.md": {
+    "mtime": 1794317788.1095533,
+    "seen": 1794317906.036436,
+    "ast_hash": "13ee35c9be744995b0a69a31b645072a",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_feed9219-1327-4a8d-9000-e8176dbd37ba.json": {
+    "mtime": 1794325817.4735558,
+    "seen": 1794326296.553542,
+    "ast_hash": "f59a57fe7d5c332991a7df64dad60bab",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/issues/01-manifest-dataset-merger-with-oversampling.md": {
+    "mtime": 1794322877.4258373,
+    "seen": 1794324311.355514,
+    "ast_hash": "a583ad9ba9a03aa152cd268ee4bc6fb7",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/issues/02-adr0007-training-time-augmentation-pipeline.md": {
+    "mtime": 1794322977.8434768,
+    "seen": 1794324311.3555148,
+    "ast_hash": "c5db7dbc9118c22cffb914decb31ecdc",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/issues/03-dual-gate-evaluation-backup-and-visual-report.md": {
+    "mtime": 1794323084.0589454,
+    "seen": 1794324311.355516,
+    "ast_hash": "77614ad85f6ce027fc75a864155d1bc4",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/issues/04-execute-retraining-promote-weights-and-verify.md": {
+    "mtime": 1794324259.6237664,
+    "seen": 1794324311.355517,
+    "ast_hash": "6c075f8dc3d358a8f3fb23bf30942b2b",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/spec.md": {
+    "mtime": 1794322479.9321764,
+    "seen": 1794322538.47359,
+    "ast_hash": "686bf1d0b4e996c57d61ce7a16655788",
+    "semantic_hash": ""
+  },
+  "scripts/merge_datasets.py": {
+    "mtime": 1794322854.9976966,
+    "seen": 1794324311.3554182,
+    "ast_hash": "50fb66e2a627c4e4e3a843adac3ad42c",
+    "semantic_hash": ""
+  },
+  "scripts/visualize_augmentations.py": {
+    "mtime": 1794322941.141728,
+    "seen": 1794324311.355422,
+    "ast_hash": "a9299dcc549dec731e256f5e978ab90a",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_dataset_merger.py": {
+    "mtime": 1794322716.2401464,
+    "seen": 1794324311.355458,
+    "ast_hash": "df4137394afd599bb1ab88bf5cb1bb01",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_evaluate_dual_gate.py": {
+    "mtime": 1794323070.967589,
+    "seen": 1794324311.355459,
+    "ast_hash": "dc05200981b9b01ad13e91936e17107a",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_train_augmentation.py": {
+    "mtime": 1794322908.7054636,
+    "seen": 1794324311.355467,
+    "ast_hash": "e9dee706ae1d924feb4848d3c1314152",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/edits/01-start-and-visual-samples.md": {
+    "mtime": 1794324292.2240515,
+    "seen": 1794324311.3555121,
+    "ast_hash": "7fb245e2f122f2aa53ba20e5ebbaa11c",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/feedback/01-start-and-visual-samples.md": {
+    "mtime": 1794324298.8651888,
+    "seen": 1794324311.355513,
+    "ast_hash": "fb7abcc81618535959b84e67d1ac8afc",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/edits/02-real-date-and-db-id-naming.md": {
+    "mtime": 1794324997.2737563,
+    "seen": 1794325121.3498518,
+    "ast_hash": "3311694090ed23fc9fb9e17226da5598",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/feedback/02-real-date-and-db-id-naming.md": {
+    "mtime": 1794325114.066003,
+    "seen": 1794325121.349854,
+    "ast_hash": "9acd3c7b49176caa0d17dd6fb1e82c3c",
+    "semantic_hash": ""
+  },
+  ".scratch/dark-sneaker-retraining/handoff.md": {
+    "mtime": 1794325788.9540815,
+    "seen": 1794325817.3346639,
+    "ast_hash": "e9b27aedaf100c355005ab1961e63dc8",
+    "semantic_hash": ""
+  },
+  ".scratch/handoffs/2026-11-10-224840-handoff.md": {
+    "mtime": 1794325808.876835,
+    "seen": 1794325817.334677,
+    "ast_hash": "e9b27aedaf100c355005ab1961e63dc8",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_0236dabf-4d49-47e3-be36-536f45a9e30e.json": {
+    "mtime": 1794326289.654314,
+    "seen": 1794326296.553525,
+    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
+    "semantic_hash": ""
+  },
+  "docs/images/adr0007_augmentation_sample.jpg": {
+    "mtime": 1794326136.0139647,
+    "seen": 1794326296.554053,
+    "ast_hash": "96af05d229a6cca6b12bfda78a035b41",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_depth_overlap.jpg": {
+    "mtime": 1794326135.9985728,
+    "seen": 1794326296.5540538,
+    "ast_hash": "85bc61092fc72677b3e2eb67285ca32f",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_motion_blur.jpg": {
+    "mtime": 1794326136.0070837,
+    "seen": 1794326296.554055,
+    "ast_hash": "20214f8137541fe58d7090d2f9462b84",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_tile_glare.jpg": {
+    "mtime": 1794326136.0108068,
+    "seen": 1794326296.554056,
+    "ast_hash": "d5884ceee18140171f8caded34f9d094",
+    "semantic_hash": ""
+  }
+}

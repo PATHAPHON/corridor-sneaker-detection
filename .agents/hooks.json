@@ -1,0 +1,39 @@
+{
+  "main-agent-context": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "python3 hooks/session-start-main.py",
+        "timeout": 10
+      }
+    ]
+  },
+  "spec-enforcer": {
+    "PreToolUse": [
+      {
+        "matcher": "write_file|edit_file|run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 hooks/pre_tool_spec_enforcer.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "trace-collector": {
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 hooks/trace_hook.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
