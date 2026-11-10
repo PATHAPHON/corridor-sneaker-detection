@@ -377,7 +377,7 @@ ADR-0007 เข้ามาแก้ปัญหานี้ผ่านกร�
 
 ### 7.1 โครงสร้างไฟล์ในโปรเจกต์
 ```text
-my-cv/
+corridor-sneaker-detection/
 ├── AGENTS.md                  # ข้อกำหนดทางวิศวกรรมและกฎเหล็กของระบบ
 ├── GLOSSARY.md                # นิยามศัพท์เฉพาะและ System Invariants
 ├── pyproject.toml             # การจัดการ Dependencies ผ่าน uv

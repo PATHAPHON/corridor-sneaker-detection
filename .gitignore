@@ -19,5 +19,5 @@ datasets/
 models/*.pt
 runs/
 output/
-graphify-out/cache/
+graphify-out/
 .DS_Store
