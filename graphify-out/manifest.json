@@ -1,22 +1,4 @@
 {
-  ".agents/.agent-evolution/bin/distill.py": {
-    "mtime": 1794292342.6663685,
-    "seen": 1794292367.013741,
-    "ast_hash": "da1053cce0b550123967c8634025b614",
-    "semantic_hash": "da1053cce0b550123967c8634025b614"
-  },
-  ".agents/.agent-evolution/bin/sync-traces.py": {
-    "mtime": 1794292342.6668072,
-    "seen": 1794292367.0137448,
-    "ast_hash": "83dcd1cfd567f35ec011efbdd9e716b8",
-    "semantic_hash": "83dcd1cfd567f35ec011efbdd9e716b8"
-  },
-  ".agents/.agent-evolution/bin/trace-collector.py": {
-    "mtime": 1794292342.6672304,
-    "seen": 1794292367.013747,
-    "ast_hash": "a5c401abdde758ef9cbc08ad201ff7b2",
-    "semantic_hash": "a5c401abdde758ef9cbc08ad201ff7b2"
-  },
   ".agents/hooks.json": {
     "mtime": 1794292342.6565015,
     "seen": 1794292367.013747,
@@ -52,18 +34,6 @@
     "seen": 1794292367.013752,
     "ast_hash": "4e3e2b4d5dc8101655dd6ad33fb5ce41",
     "semantic_hash": "4e3e2b4d5dc8101655dd6ad33fb5ce41"
-  },
-  ".agents/.agent-evolution/data/traces/current_trace.json": {
-    "mtime": 1794326289.6541367,
-    "seen": 1794326296.5535228,
-    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_f9e4b898-cac6-4837-812c-27215b59b49d.json": {
-    "mtime": 1794295695.034002,
-    "seen": 1794298045.156994,
-    "ast_hash": "df864a937472cc90ecdde267e22bdb71",
-    "semantic_hash": ""
   },
   ".agents/skills/code-review/SKILL.md": {
     "mtime": 1794292342.6783025,
@@ -239,34 +209,10 @@
     "ast_hash": "f4eb8c8c0ed942d07d0ef76277e51a80",
     "semantic_hash": ""
   },
-  ".agents/.agent-evolution/data/traces/sess_369b18d1-2706-46d3-829c-876f7d9fcc79.json": {
-    "mtime": 1794295591.1868548,
-    "seen": 1794295694.953033,
-    "ast_hash": "72c276d41318912f4c5c9fd22eafcfd9",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_3e0cfc48-7e0b-4b63-b416-358ed48a26a0.json": {
-    "mtime": 1794295654.1385398,
-    "seen": 1794295694.953034,
-    "ast_hash": "f91fdb47172ff203c994af2ab880ffd8",
-    "semantic_hash": ""
-  },
   "docs/adr/assets/cv_full_body_detection_tripwire.jpg": {
     "mtime": 1794295667.872488,
     "seen": 1794295694.953076,
     "ast_hash": "6c210336985766e7bda0b8e689e175a7",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_bca05775-67b8-4f41-98e8-93efeb000f16.json": {
-    "mtime": 1794302925.5117502,
-    "seen": 1794305495.828916,
-    "ast_hash": "78b767744fbe917ede268156b2dcf9bd",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_c4dec738-e363-460d-a654-28822227aa83.json": {
-    "mtime": 1794297538.2321367,
-    "seen": 1794298045.156993,
-    "ast_hash": "030b462d1f1c79e9246e0a7a7d39b948",
     "semantic_hash": ""
   },
   ".scratch/sneaker-dataset-upload/issues/01-preflight-and-single-image-verification.md": {
@@ -2117,18 +2063,6 @@
     "ast_hash": "3e29f890feca9bda84e5cebec878dac9",
     "semantic_hash": ""
   },
-  ".agents/.agent-evolution/data/traces/sess_5eafade5-a8ef-49fa-8f4f-6811468241e1.json": {
-    "mtime": 1794298848.1584532,
-    "seen": 1794298948.1266618,
-    "ast_hash": "fb3ddc63aaabe073739d2ac5d81ef6a3",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_b56d63cf-c4c6-46bc-bb99-e0ab2b4a666f.json": {
-    "mtime": 1794298838.8955295,
-    "seen": 1794298948.126663,
-    "ast_hash": "1f7283df019666e2c503b157ac70adbe",
-    "semantic_hash": ""
-  },
   ".scratch/sneaker-dataset-upload/edits/01-complete-upload-and-address-review.md": {
     "mtime": 1794302581.0759397,
     "seen": 1794302604.906788,
@@ -2139,18 +2073,6 @@
     "mtime": 1794298876.0183854,
     "seen": 1794298948.126688,
     "ast_hash": "a013efb67a1bc6857d66a39529241347",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_f2307230-7a44-46a7-be21-fe741cbb7bbc.json": {
-    "mtime": 1794303293.853193,
-    "seen": 1794305495.828917,
-    "ast_hash": "c4aab5095f4f106f8eb63c77f985fe3b",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/incidents/2026-11-10-spec-freeze-gate-false-positive.md": {
-    "mtime": 1794299441.4763129,
-    "seen": 1794302440.347373,
-    "ast_hash": "a993f4ce9e37bcef606339d08cb7bd4d",
     "semantic_hash": ""
   },
   ".scratch/sneaker-dataset-upload/edits/02-fix-freezing-and-tick-issues.md": {
@@ -2181,12 +2103,6 @@
     "mtime": 1794303054.840671,
     "seen": 1794305495.8289511,
     "ast_hash": "128681d306964dbee348b5c488e36e37",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_53d01950-0200-45a6-acef-281cbefc05fa.json": {
-    "mtime": 1794306265.9993281,
-    "seen": 1794306724.4094028,
-    "ast_hash": "92924170b359388ac019674249a5829a",
     "semantic_hash": ""
   },
   "main.py": {
@@ -2250,15 +2166,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1794326246.2229986,
-    "seen": 1794326296.5537128,
-    "ast_hash": "35be1ec1f96bfcdcf04c5dcb9d2c1469",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_d6572f5a-e8d3-47ef-b034-d4307abd3be3.json": {
-    "mtime": 1794312222.7298906,
-    "seen": 1794312475.221441,
-    "ast_hash": "2e47c69d4056afdcb491b7cce685bb16",
+    "mtime": 1794328269.4137158,
+    "seen": 1794328290.450578,
+    "ast_hash": "030ed0e76ac06b128e3e24e81ec893fd",
     "semantic_hash": ""
   },
   ".scratch/core-video-pipeline/issues/01-frame-source-abstraction.md": {
@@ -2513,12 +2423,6 @@
     "ast_hash": "6ebf6f8cd4de9692ec308c7c59380b0b",
     "semantic_hash": ""
   },
-  ".agents/.agent-evolution/data/traces/sess_db7d3848-d67b-46b0-b926-54a74e26c776.json": {
-    "mtime": 1794317906.2696729,
-    "seen": 1794322538.473475,
-    "ast_hash": "65433abc822deef7c5314547eb8164fb",
-    "semantic_hash": ""
-  },
   ".scratch/storage-and-evidence/issues/01-sqlite-event-repository.md": {
     "mtime": 1794313174.4599102,
     "seen": 1794313214.427299,
@@ -2687,12 +2591,6 @@
     "ast_hash": "13ee35c9be744995b0a69a31b645072a",
     "semantic_hash": ""
   },
-  ".agents/.agent-evolution/data/traces/sess_feed9219-1327-4a8d-9000-e8176dbd37ba.json": {
-    "mtime": 1794325817.4735558,
-    "seen": 1794326296.553542,
-    "ast_hash": "f59a57fe7d5c332991a7df64dad60bab",
-    "semantic_hash": ""
-  },
   ".scratch/dark-sneaker-retraining/issues/01-manifest-dataset-merger-with-oversampling.md": {
     "mtime": 1794322877.4258373,
     "seen": 1794324311.355514,
@@ -2787,12 +2685,6 @@
     "mtime": 1794325808.876835,
     "seen": 1794325817.334677,
     "ast_hash": "e9b27aedaf100c355005ab1961e63dc8",
-    "semantic_hash": ""
-  },
-  ".agents/.agent-evolution/data/traces/sess_0236dabf-4d49-47e3-be36-536f45a9e30e.json": {
-    "mtime": 1794326289.654314,
-    "seen": 1794326296.553525,
-    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
     "semantic_hash": ""
   },
   "docs/images/adr0007_augmentation_sample.jpg": {

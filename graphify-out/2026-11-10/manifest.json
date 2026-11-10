@@ -54,9 +54,9 @@
     "semantic_hash": "4e3e2b4d5dc8101655dd6ad33fb5ce41"
   },
   ".agents/.agent-evolution/data/traces/current_trace.json": {
-    "mtime": 1794325808.9231958,
-    "seen": 1794325817.334535,
-    "ast_hash": "e416bb54fb41e86e19502686ae6ebe26",
+    "mtime": 1794326289.6541367,
+    "seen": 1794326296.5535228,
+    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
     "semantic_hash": ""
   },
   ".agents/.agent-evolution/data/traces/sess_f9e4b898-cac6-4837-812c-27215b59b49d.json": {
@@ -2250,9 +2250,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1794303787.2039735,
-    "seen": 1794305495.82896,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1794326246.2229986,
+    "seen": 1794326296.5537128,
+    "ast_hash": "35be1ec1f96bfcdcf04c5dcb9d2c1469",
     "semantic_hash": ""
   },
   ".agents/.agent-evolution/data/traces/sess_d6572f5a-e8d3-47ef-b034-d4307abd3be3.json": {
@@ -2688,9 +2688,9 @@
     "semantic_hash": ""
   },
   ".agents/.agent-evolution/data/traces/sess_feed9219-1327-4a8d-9000-e8176dbd37ba.json": {
-    "mtime": 1794325808.9234517,
-    "seen": 1794325817.334552,
-    "ast_hash": "e416bb54fb41e86e19502686ae6ebe26",
+    "mtime": 1794325817.4735558,
+    "seen": 1794326296.553542,
+    "ast_hash": "f59a57fe7d5c332991a7df64dad60bab",
     "semantic_hash": ""
   },
   ".scratch/dark-sneaker-retraining/issues/01-manifest-dataset-merger-with-oversampling.md": {
@@ -2787,6 +2787,36 @@
     "mtime": 1794325808.876835,
     "seen": 1794325817.334677,
     "ast_hash": "e9b27aedaf100c355005ab1961e63dc8",
+    "semantic_hash": ""
+  },
+  ".agents/.agent-evolution/data/traces/sess_0236dabf-4d49-47e3-be36-536f45a9e30e.json": {
+    "mtime": 1794326289.654314,
+    "seen": 1794326296.553525,
+    "ast_hash": "190b22b4153167b54af0942bf619a1cd",
+    "semantic_hash": ""
+  },
+  "docs/images/adr0007_augmentation_sample.jpg": {
+    "mtime": 1794326136.0139647,
+    "seen": 1794326296.554053,
+    "ast_hash": "96af05d229a6cca6b12bfda78a035b41",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_depth_overlap.jpg": {
+    "mtime": 1794326135.9985728,
+    "seen": 1794326296.5540538,
+    "ast_hash": "85bc61092fc72677b3e2eb67285ca32f",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_motion_blur.jpg": {
+    "mtime": 1794326136.0070837,
+    "seen": 1794326296.554055,
+    "ast_hash": "20214f8137541fe58d7090d2f9462b84",
+    "semantic_hash": ""
+  },
+  "docs/images/before_after_tile_glare.jpg": {
+    "mtime": 1794326136.0108068,
+    "seen": 1794326296.554056,
+    "ast_hash": "d5884ceee18140171f8caded34f9d094",
     "semantic_hash": ""
   }
 }
