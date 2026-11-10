@@ -2166,9 +2166,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1794328269.4137158,
-    "seen": 1794328290.450578,
-    "ast_hash": "030ed0e76ac06b128e3e24e81ec893fd",
+    "mtime": 1794328579.5945528,
+    "seen": 1794328611.4881458,
+    "ast_hash": "7bce5603e62a6f1abed9aaa2a144145f",
     "semantic_hash": ""
   },
   ".scratch/core-video-pipeline/issues/01-frame-source-abstraction.md": {
@@ -2709,6 +2709,18 @@
     "mtime": 1794326136.0108068,
     "seen": 1794326296.554056,
     "ast_hash": "d5884ceee18140171f8caded34f9d094",
+    "semantic_hash": ""
+  },
+  "docs/images/live_run_best_crop.jpg": {
+    "mtime": 1794328533.5828135,
+    "seen": 1794328611.488492,
+    "ast_hash": "fa8b1a90918bf75679f0c60c024b5906",
+    "semantic_hash": ""
+  },
+  "docs/images/live_run_best_full.jpg": {
+    "mtime": 1794328533.5825472,
+    "seen": 1794328611.488495,
+    "ast_hash": "e1d2764d07459ed9885b31d2a1cd529c",
     "semantic_hash": ""
   }
 }

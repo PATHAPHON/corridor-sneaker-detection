@@ -1,17 +1,17 @@
 # Graph Report - my-cv  (2026-11-10)
 
 ## Corpus Check
-- 141 files · ~424,499 words
+- 141 files · ~439,785 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .example 1, .lock 1)
 
 ## Summary
-- 1155 nodes · 1806 edges · 108 communities (80 shown, 28 thin omitted)
+- 1158 nodes · 1809 edges · 110 communities (82 shown, 28 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 150 edges (avg confidence: 0.92)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d2685ac0`
+- Built from commit: `ad051bdf`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,7 +20,7 @@
 - Rules
 - Diagnosing Bugs
 - Test-Driven Development
-- check_spec_in_workspace
+- pre_tool_spec_enforcer.py
 - Process
 - ADR-0001: Person Detection and Multi-Object Tracking Pipeline
 - Set-Call: Universal Tool-Call & Command Error Correction Playbook
@@ -33,14 +33,14 @@
 - Process
 - Project Agent Guidelines (AGENTS.md Template)
 - Project Glossary & Domain Invariants (GLOSSARY.md Template)
-- EventRepository
+- merge_datasets.py
 - Feature Spec: Storage Persistence & Active Retraining Pipeline
 - ADR-0002: Virtual Line Crossing and Tripwire Mechanism
 - ADR-0003: Lower-Body ROI Extraction and Sneaker Detection
 - ADR-0004: Event Logging, Image Evidence Storage, and Database Architecture
 - ADR-0005: Camera Placement and Optical Geometry Specification (MacBook Webcam)
 - Spec: Architecture Governance — AGENTS.md & GLOSSARY.md Synthesis
-- AGENTS.md — Engineering Guidelines & Operational Standards
+- ADR-0006: Runtime Architecture, Concurrency Model, and Testing Strategy
 - Spec: Sneaker Dataset Ingestion & Auto-Box Annotation Pipeline
 - 01-preflight-and-single-image-verification.md
 - 02-bulk-dataset-upload-and-split.md
@@ -60,11 +60,10 @@
 - my-cv
 - 2. การตัดสินใจเชิงสถาปัตยกรรม (ADR-0001 ถึง ADR-0007)
 - Feature Spec: Core Video and Tracking Pipeline
-- person_tracker.py
-- coordinator.py
-- is_frozen_spec_target
+- inspector.py
+- extract_lower_body_roi
 - 2. System Invariants & Non-Negotiable Rules
-- test_storage.py
+- EventRepository
 - 01-frame-source-abstraction.md
 - 02-person-detection-and-tracking.md
 - 03-virtual-line-tripwire.md
@@ -77,16 +76,16 @@
 - Edit 02: Real-time Live Video GUI Preview Window with Visual HUD
 - numpy
 - CameraFrameSource
+- AGENTS.md — Engineering Guidelines & Operational Standards
 - json
-- pathlib
 - test_preflight.py
-- pre_tool_spec_enforcer.py
+- 1. What Was Completed in This Session
 - test_sneaker_model.py
-- Edit 03: Realign Tripwire to Lateral Side-View Vertical Geometry per ADR-0005
+- PipelineConfig
 - Feedback 01: macOS AVFoundation Camera Backend
 - evaluate_and_export.py
 - Edit 03: Accurate Two-Foot Annotation & Verification Pipeline
-- detect_session_role
+- .run
 - Feedback 03: Curate and Annotate Both Feet
 - Edit 01: Implement Retraining Pipeline and Generate 5 Visual Augmentation Samples
 - 01-sqlite-event-repository.md
@@ -95,8 +94,8 @@
 - PipelineHud
 - Feedback 01: Start Implementation and Request 5 Visual Augmentation Samples
 - Real-Time Corridor Tripwire Footwear Inspection System
-- PersonTracker
-- 2. Immediate Next Steps for Next Feature
+- pytest
+- test_coordinator_worker_persists_event_and_evidence
 - VideoFileFrameSource
 - SyntheticFrameSource
 - Edit 05: Dark Sneaker Augmentation Strategy & ADR
@@ -114,13 +113,14 @@
 - 3. บันทึกกระบวนการทำงาน การสนทนากับ AI และการแก้ปัญหาตามบริบทจริง
 - Feedback 02: Real-time Live Video GUI Preview
 - 2. Immediate Next Steps for Next Agent
-- Incident Report: False-Positive Spec Freezing Gate during Task Implementation
+- .save_evidence
 - 7. โครงสร้างโปรเจกต์และวิธีติดตั้งใช้งาน
-- Edit 01: Implement Storage Persistence & Active Retraining Pipeline
+- test_pipeline_end_to_end_integration
 - Edit 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence
-- Feedback 01: Implement Storage Persistence & Active Retraining Pipeline
-- get_user_inputs
+- Feedback 02: Tracker ID Stability and Reset
+- Feedback 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence
 - 1. What Was Completed
+- ._extract_date_str
 
 ## God Nodes (most connected - your core abstractions)
 1. `PipelineCoordinator` - 36 edges
@@ -137,23 +137,23 @@
 ## Surprising Connections (you probably didn't know these)
 - `4.4 Session 8: การจัดการเหตุการณ์ขัดข้อง (Incident) ของ Pre-Tool Spec Enforcer Hook` --references--> `is_frozen_spec_target()`  [INFERRED]
   README.md → .agents/hooks/pre_tool_spec_enforcer.py
-- `3. Recommended Remediation` --references--> `is_frozen_spec_target()`  [INFERRED]
-  .scratch/sneaker-dataset-upload/incident-spec-freeze.md → .agents/hooks/pre_tool_spec_enforcer.py
 - `1. What Was Completed` --references--> `validate_scratch_write()`  [INFERRED]
   .scratch/handoffs/2026-11-10-172321-handoff.md → .agents/hooks/pre_tool_spec_enforcer.py
-- `Flaws:` --references--> `validate_scratch_write()`  [INFERRED]
-  .scratch/sneaker-dataset-upload/incident-spec-freeze.md → .agents/hooks/pre_tool_spec_enforcer.py
 - `Encapsulation Rules:` --references--> `FrameSource`  [INFERRED]
   AGENTS.md → src/capture/base.py
+- `3. Testing Strategy & Testability Seams` --references--> `FrameSource`  [INFERRED]
+  docs/adr/0006-runtime-architecture-concurrency-and-testing-strategy.md → src/capture/base.py
+- `6. แผนการดำเนินงานและสิ่งที่ได้ทำไปแล้ว (Execution Plan & Status)` --references--> `FrameSource`  [INFERRED]
+  README.md → src/capture/base.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (108 total, 28 thin omitted)
+## Communities (110 total, 28 thin omitted)
 
 ### Community 0 - "TrackedPerson"
 Cohesion: 0.09
-Nodes (12): Feedback 03: Lateral Side-View Vertical Tripwire & Floor Alignment, Reason the user gave, What the user asked to change, What the user said (verbatim), What was actually changed (fill in after the edit), TrackedPerson, MockLateralTracker, MockTracker (+4 more)
+Nodes (13): Feedback 03: Lateral Side-View Vertical Tripwire & Floor Alignment, Reason the user gave, What the user asked to change, What the user said (verbatim), What was actually changed (fill in after the edit), TrackedPerson, TripwireZone, MockLateralTracker (+5 more)
 
 ### Community 1 - "Rules"
 Cohesion: 0.08
@@ -167,9 +167,9 @@ Nodes (14): Completion criterion: a tight loop that goes red, Diagnosing Bugs, M
 Cohesion: 0.15
 Nodes (10): Designing for Mockability, When to Mock, Anti-patterns, Rules of the loop, Seams: where tests go, Test-Driven Development, What a good test is, Bad Tests (+2 more)
 
-### Community 4 - "check_spec_in_workspace"
-Cohesion: 0.20
-Nodes (7): check_spec_in_workspace(), get_project_root(), get_spec_creation_time(), is_production_code_modification(), main(), validate_edit_ticket_content(), validate_scratch_write()
+### Community 4 - "pre_tool_spec_enforcer.py"
+Cohesion: 0.07
+Nodes (28): check_graphify_installed(), check_spec_in_workspace(), get_latest_user_input_time(), get_project_root(), get_session_start_mtime(), get_spec_creation_time(), get_user_inputs(), is_frozen_spec_target() (+20 more)
 
 ### Community 5 - "Process"
 Cohesion: 0.15
@@ -219,9 +219,9 @@ Nodes (7): 1. Project Stack, 2. Build, Run & Test Commands, 3. Code Style & Conv
 Cohesion: 0.50
 Nodes (3): 1. Domain Terminology, 2. System Invariants & Non-Negotiable Rules, Project Glossary & Domain Invariants (GLOSSARY.md Template)
 
-### Community 17 - "EventRepository"
-Cohesion: 0.11
-Nodes (7): 1. Executive Summary & Active State, main(), DatasetExporter, ExportSummary, EventRepository, test_dataset_exporter_creates_yolo_structure_and_labels(), test_sqlite_repository_insert_and_query_by_track_id()
+### Community 17 - "merge_datasets.py"
+Cohesion: 0.14
+Nodes (8): find_label_for_image(), main(), merge_datasets(), resolve_split_images(), verify_labels_exist(), dummy_datasets(), test_merge_datasets_creates_manifests_and_oversamples(), test_verify_labels_exist()
 
 ### Community 19 - "Feature Spec: Storage Persistence & Active Retraining Pipeline"
 Cohesion: 0.15
@@ -247,17 +247,17 @@ Nodes (13): 1. Physical Setup & Layout, 2. Virtual Tripwire (Vertical Line), 3. 
 Cohesion: 0.25
 Nodes (7): Implementation Decisions, Out of Scope, Problem Statement, Solution, Spec: Architecture Governance — AGENTS.md & GLOSSARY.md Synthesis, Testing Decisions, User Stories
 
-### Community 25 - "AGENTS.md — Engineering Guidelines & Operational Standards"
-Cohesion: 0.08
-Nodes (23): 1. Project Overview & Tech Stack, 2. Build, Run & Test Commands, 3. Code Style & Architecture Conventions, 4. Architecture & Module Boundaries, 5. Boundaries (Never-Touch Rules), 6. Standard Delivery Workflow, AGENTS.md — Engineering Guidelines & Operational Standards, Clean 10-Line Pattern (Decoupled Stage Architecture) (+15 more)
+### Community 25 - "ADR-0006: Runtime Architecture, Concurrency Model, and Testing Strategy"
+Cohesion: 0.14
+Nodes (13): 1. Runtime Tech Stack, 2. Concurrency Architecture (Two-Stage Decoupled), 3. Testing Strategy & Testability Seams, ADR-0006: Runtime Architecture, Concurrency Model, and Testing Strategy, Alternative 1: Single-Threaded Synchronous Pipeline, Alternative 2: Multiprocessing (`multiprocessing.Process`), Alternatives Considered, Consequences (+5 more)
 
 ### Community 26 - "Spec: Sneaker Dataset Ingestion & Auto-Box Annotation Pipeline"
 Cohesion: 0.22
 Nodes (8): Further Notes, Implementation Decisions, Out of Scope, Problem Statement, Solution, Spec: Sneaker Dataset Ingestion & Auto-Box Annotation Pipeline, Testing Decisions, User Stories
 
 ### Community 31 - "cv2"
-Cohesion: 0.13
-Nodes (10): main(), segment_feet_boxes(), apply_erasing(), apply_flip_and_scale(), apply_hsv_jitter(), apply_rotation(), draw_boxes(), generate_samples() (+2 more)
+Cohesion: 0.15
+Nodes (9): segment_feet_boxes(), apply_erasing(), apply_flip_and_scale(), apply_hsv_jitter(), apply_rotation(), draw_boxes(), generate_samples(), make_comparison_panel() (+1 more)
 
 ### Community 32 - "Edit 01: Complete Dataset Upload & Code Review Checklist Verification"
 Cohesion: 0.22
@@ -284,8 +284,8 @@ Cohesion: 0.22
 Nodes (8): Further Notes, Implementation Decisions, Out of Scope, Problem Statement, Solution, Spec: Sneaker Model Fine-Tuning & Evaluation Pipeline, Testing Decisions, User Stories
 
 ### Community 38 - "PipelineCoordinator"
-Cohesion: 0.08
-Nodes (15): Planned Changes, What was actually changed (fill in after the edit), 03: Pipeline Worker Storage Integration, PipelineConfig, main(), on_crossing_event(), CrossingTask, PipelineCoordinator (+7 more)
+Cohesion: 0.17
+Nodes (5): 03: Pipeline Worker Storage Integration, main(), on_crossing_event(), PipelineCoordinator, ProcessedCrossingEvent
 
 ### Community 44 - "2. การตัดสินใจเชิงสถาปัตยกรรม (ADR-0001 ถึง ADR-0007)"
 Cohesion: 0.25
@@ -295,21 +295,21 @@ Nodes (8): 2. การตัดสินใจเชิงสถาปัตย
 Cohesion: 0.22
 Nodes (8): Feature Spec: Core Video and Tracking Pipeline, Further Notes, Implementation Decisions, Out of Scope, Problem Statement, Solution, Testing Decisions, User Stories
 
-### Community 47 - "coordinator.py"
-Cohesion: 0.10
-Nodes (8): FootwearInspectionResult, FootwearInspector, extract_lower_body_roi(), LowerBodyRoi, test_extract_lower_body_roi_boundary_clamping(), test_extract_lower_body_roi_exact_formula(), test_footwear_inspector_negative_detection(), test_footwear_inspector_positive_detection()
+### Community 47 - "inspector.py"
+Cohesion: 0.18
+Nodes (5): FootwearInspectionResult, FootwearInspector, get_default_device(), test_footwear_inspector_negative_detection(), test_footwear_inspector_positive_detection()
 
-### Community 48 - "is_frozen_spec_target"
-Cohesion: 0.14
-Nodes (11): is_frozen_spec_target(), 1. What Was Completed, 2. Immediate Next Steps for Next Agent, 3. Suggested Skills for Next Agent, 4. Key Paths & Artifacts, Handoff: Sneaker Dataset Ingestion & Pre-Tool Hook Fix, 1. What Was Completed, 2. Immediate Next Steps for Next Agent (+3 more)
+### Community 48 - "extract_lower_body_roi"
+Cohesion: 0.17
+Nodes (5): main(), extract_lower_body_roi(), LowerBodyRoi, test_extract_lower_body_roi_boundary_clamping(), test_extract_lower_body_roi_exact_formula()
 
 ### Community 49 - "2. System Invariants & Non-Negotiable Rules"
 Cohesion: 0.18
 Nodes (10): 1. Domain Terminology, 2. System Invariants & Non-Negotiable Rules, GLOSSARY.md — Domain Terminology & System Invariants, Invariant 1: 30+ FPS Real-Time Capture Guarantee, Invariant 2: Bounded Event Queue (Max Capacity = 20), Invariant 3: Single-Class Inspection Scope, Invariant 4: Floor-Plane Anchor Formulation, Invariant 5: SQLite WAL Mode Persistence (+2 more)
 
-### Community 50 - "test_storage.py"
-Cohesion: 0.08
-Nodes (4): populated_db_and_images(), temp_db_path(), test_sqlite_repository_initialization_enables_wal_and_creates_schema(), test_sqlite_repository_query_all_and_count()
+### Community 50 - "EventRepository"
+Cohesion: 0.05
+Nodes (21): Acceptance Criteria, Edit 01: Implement Storage Persistence & Active Retraining Pipeline, Planned Changes, Rationale & Impact, Target Files, Feedback 01: Implement Storage Persistence & Active Retraining Pipeline, Reason the user gave, What the user asked to change (+13 more)
 
 ### Community 56 - "1.1 Core Video Pipeline Feature Inception & Delivery"
 Cohesion: 0.22
@@ -320,40 +320,44 @@ Cohesion: 0.18
 Nodes (10): 2. Grill-Me Consensus & Architectural Decisions, 3. Step-by-Step Execution Playbook for Next Agent, 4. Key File & Directory References, 5. Suggested Skills, Handoff: Sneaker Model Retraining & Production Verification (Ticket 05), Step 1: Prepare Merged Dataset Configuration, Step 2: Execute Retraining with Tuned Augmentations, Step 3: Run Benchmark Gate & Weight Export (+2 more)
 
 ### Community 59 - "EvidenceWriter"
-Cohesion: 0.14
-Nodes (8): Planned Changes, EvidenceWriter, SavedEvidencePaths, temp_capture_dir(), test_evidence_writer_creates_date_directory_and_saves_images(), test_evidence_writer_fallbacks_for_epoch_1970(), test_evidence_writer_handles_empty_detections(), test_evidence_writer_with_event_id_prefix()
+Cohesion: 0.18
+Nodes (6): What was actually changed (fill in after the edit), EvidenceWriter, temp_capture_dir(), test_evidence_writer_fallbacks_for_epoch_1970(), test_evidence_writer_handles_empty_detections(), test_evidence_writer_with_event_id_prefix()
 
 ### Community 60 - "Edit 02: Real-time Live Video GUI Preview Window with Visual HUD"
 Cohesion: 0.33
 Nodes (5): Acceptance Criteria, Edit 02: Real-time Live Video GUI Preview Window with Visual HUD, Planned Changes, Rationale & Impact, Target Files
 
+### Community 61 - "numpy"
+Cohesion: 0.19
+Nodes (3): FrameData, test_camera_frame_source_initialization(), test_video_file_frame_source_eof_and_close()
+
 ### Community 62 - "CameraFrameSource"
 Cohesion: 0.14
 Nodes (6): Acceptance Criteria, Edit 01: Enable AVFoundation Camera Backend for macOS, Planned Changes, Rationale & Impact, Target Files, CameraFrameSource
 
-### Community 63 - "json"
-Cohesion: 0.31
-Nodes (6): get_session_start_mtime(), extract_latest_user_prompt(), get_trace_file(), load_trace(), main(), save_trace()
+### Community 63 - "AGENTS.md — Engineering Guidelines & Operational Standards"
+Cohesion: 0.18
+Nodes (10): 1. Project Overview & Tech Stack, 2. Build, Run & Test Commands, 3. Code Style & Architecture Conventions, 4. Architecture & Module Boundaries, 5. Boundaries (Never-Touch Rules), 6. Standard Delivery Workflow, AGENTS.md — Engineering Guidelines & Operational Standards, Clean 10-Line Pattern (Decoupled Stage Architecture) (+2 more)
 
-### Community 64 - "pathlib"
+### Community 64 - "json"
 Cohesion: 0.06
-Nodes (18): load_env_file(), main(), find_label_for_image(), main(), merge_datasets(), resolve_split_images(), verify_labels_exist(), main() (+10 more)
+Nodes (22): detect_session_role(), is_codex_caller(), make_empty_payload(), make_inject_payload(), parse_hook_input(), read_files_to_message(), extract_latest_user_prompt(), get_trace_file() (+14 more)
 
 ### Community 65 - "test_preflight.py"
 Cohesion: 0.25
 Nodes (3): test_core_dependencies_importable(), test_mps_acceleration_available(), test_mps_tensor_operation()
 
-### Community 66 - "pre_tool_spec_enforcer.py"
-Cohesion: 0.27
-Nodes (3): read_files_to_message(), check_graphify_installed(), is_graphify_available()
+### Community 66 - "1. What Was Completed in This Session"
+Cohesion: 0.18
+Nodes (10): 1.1 Specification & Tracer Tickets, 1.2 Dataset Merger with 5x Oversampling (Ticket 01), 1.3 ADR-0007 Augmentation Pipeline & 5 Visual Samples (Ticket 02), 1.4 Fine-Tuning Execution & Dual-Gate Promotion (Ticket 03 & 04), 1.6 Log Diagnostics & Field Behavior Analysis, 1. What Was Completed in This Session, 2. Key Architecture & File References, 3. Immediate Next Steps for Next Session (+2 more)
 
 ### Community 67 - "test_sneaker_model.py"
 Cohesion: 0.17
 Nodes (5): model_path(), test_sneaker_model_detects_real_sample(), test_sneaker_model_inference_contract(), test_sneaker_model_loads_and_single_class(), test_sneaker_model_weights_exist()
 
-### Community 69 - "Edit 03: Realign Tripwire to Lateral Side-View Vertical Geometry per ADR-0005"
-Cohesion: 0.33
-Nodes (5): Acceptance Criteria, Edit 03: Realign Tripwire to Lateral Side-View Vertical Geometry per ADR-0005, Planned Changes, Rationale & Impact, Target Files
+### Community 69 - "PipelineConfig"
+Cohesion: 0.22
+Nodes (6): Acceptance Criteria, Edit 03: Realign Tripwire to Lateral Side-View Vertical Geometry per ADR-0005, Planned Changes, Rationale & Impact, Target Files, PipelineConfig
 
 ### Community 70 - "Feedback 01: macOS AVFoundation Camera Backend"
 Cohesion: 0.33
@@ -367,9 +371,9 @@ Nodes (23): 1. Manifest-Based Dataset Merger with Domain Oversampling, 2. ADR-00
 Cohesion: 0.33
 Nodes (5): Acceptance Criteria, Edit 03: Accurate Two-Foot Annotation & Verification Pipeline, Planned Changes, Rationale & Impact, Target Files
 
-### Community 73 - "detect_session_role"
+### Community 73 - ".run"
 Cohesion: 0.20
-Nodes (5): detect_session_role(), is_codex_caller(), make_empty_payload(), make_inject_payload(), parse_hook_input()
+Nodes (4): Edit 02: Tracker ID Stability and Reset Mechanism, Planned Changes, Rationale & Impact, Target Files
 
 ### Community 74 - "Feedback 03: Curate and Annotate Both Feet"
 Cohesion: 0.33
@@ -380,7 +384,7 @@ Cohesion: 0.33
 Nodes (5): Acceptance Criteria, Edit 01: Implement Retraining Pipeline and Generate 5 Visual Augmentation Samples, Planned Changes, Rationale & Impact, Target Files
 
 ### Community 79 - "PipelineHud"
-Cohesion: 0.20
+Cohesion: 0.25
 Nodes (3): 3.4 เฟสที่ 4: การพัฒนาระบบประมวลผลวิดีโอสด (Core Video Pipeline), 4.6 Session 10: การพัฒนา Core Video Pipeline และการแก้ปัญหาอุปกรณ์จริง, PipelineHud
 
 ### Community 80 - "Feedback 01: Start Implementation and Request 5 Visual Augmentation Samples"
@@ -391,13 +395,17 @@ Nodes (5): Feedback 01: Start Implementation and Request 5 Visual Augmentation S
 Cohesion: 0.22
 Nodes (8): 1.1 วัตถุประสงค์, 1.2 สถาปัตยกรรมหลักของระบบ (Two-Stage Decoupled Pipeline), 1. จุดเริ่มต้นและเป้าหมายของระบบ, 6. แผนการดำเนินงานและสิ่งที่ได้ทำไปแล้ว (Execution Plan & Status), 8.1 สรุปผลการส่งมอบในปัจจุบัน, 8.2 ทิศทางการต่อยอดในอนาคต, 8. สรุปผลลัพธ์และทิศทางการพัฒนาในอนาคต, Real-Time Corridor Tripwire Footwear Inspection System
 
-### Community 82 - "PersonTracker"
-Cohesion: 0.07
-Nodes (18): Acceptance Criteria, Edit 02: Tracker ID Stability and Reset Mechanism, Planned Changes, Rationale & Impact, Target Files, Feedback 02: Tracker ID Stability and Reset, Reason the user gave, What the user asked to change (+10 more)
+### Community 82 - "pytest"
+Cohesion: 0.11
+Nodes (8): Acceptance Criteria, calculate_ground_anchor_point(), PersonTracker, test_calculate_ground_anchor_point_asymmetric(), test_calculate_ground_anchor_point_exact_formula(), test_person_tracker_detection_filtering_and_tracking(), test_person_tracker_device_auto_detection(), test_person_tracker_reset_resets_track_id()
 
-### Community 83 - "2. Immediate Next Steps for Next Feature"
-Cohesion: 0.50
-Nodes (3): 1. What Was Completed, 2. Immediate Next Steps for Next Feature, Handoff: Sneaker YOLO11n Model Fine-Tuning & Evaluation Pipeline
+### Community 83 - "test_coordinator_worker_persists_event_and_evidence"
+Cohesion: 0.25
+Nodes (4): CrossingTask, TripwireCrossing, test_pipeline_bounded_queue_invariant(), test_coordinator_worker_persists_event_and_evidence()
+
+### Community 84 - "VideoFileFrameSource"
+Cohesion: 0.15
+Nodes (4): 1. What Was Completed, 2. Immediate Next Steps for Next Feature, Handoff: Sneaker YOLO11n Model Fine-Tuning & Evaluation Pipeline, VideoFileFrameSource
 
 ### Community 85 - "SyntheticFrameSource"
 Cohesion: 0.15
@@ -412,12 +420,12 @@ Cohesion: 0.22
 Nodes (9): 4.1 Session 3: การตั้งโจทย์และการระดมความคิดทางสถาปัตยกรรม (Inception & ADR 0001-0005), 4.2 Session 4: การแก้ปัญหาชุดข้อมูลและข้อจำกัดการวาด Bounding Box, 4.3 Session 7: การสร้างระเบียบวิศวกรรมและการประมวลผล Dataset, 4.4 Session 8: การจัดการเหตุการณ์ขัดข้อง (Incident) ของ Pre-Tool Spec Enforcer Hook, 4.5 Session 9: การเทรนโมเดลตรวจจับรองเท้าและการวัดผลเชิงปริมาณ, 4.7 Session 11: การแก้ปัญหารองเท้าสีดำ และการสถาปนา ADR-0007, 4.8 Session 12: การเทรนรอบใหม่แก้ปัญหาสำเร็จ และการจัดระเบียบไฟล์หลักฐาน, 4.9 Session 13: การสรุปเอกสาร การปิดงาน และบันทึกร่องรอย Prompt ทั้งหมด (+1 more)
 
 ### Community 88 - "5.3 ภาพเปรียบเทียบผลการตรวจจับจริง (Before vs After Evidence)"
-Cohesion: 0.25
-Nodes (8): 5.1 ทำไม ADR-0007 จึงช่วยให้ระบบดีขึ้นอย่างก้าวกระโดด, 5.2 ตารางเปรียบเทียบประสิทธิภาพ ก่อน - หลัง ปรับใช้ ADR-0007, 5.3 ภาพเปรียบเทียบผลการตรวจจับจริง (Before vs After Evidence), 5. ผลกระทบของ ADR-0007 และการเปรียบเทียบ ก่อน - หลัง (Before vs After), ตัวอย่างที่ 1: การแก้ปัญหารองเท้าซ้อนกันและเงาดำ (Depth Overlap & Silhouette), ตัวอย่างที่ 2: การแก้ปัญหาภาพเบลอจากการก้าวเท้า (Motion Blur), ตัวอย่างที่ 3: การแก้ปัญหาแสงสะท้อนบนพื้นกระเบื้องขาว (Floor Glare), ตัวอย่างที่ 4: ตัวอย่างภาพที่ผ่านกระบวนการ Training-Time Augmentation
+Cohesion: 0.18
+Nodes (11): 1. ภาพเต็มบริบทของเหตุการณ์จริง (Full Scene Context Frame), 2. ภาพขยายและผลการตรวจจับส่วนเท้า (Annotated Lower-Body Crop), 5.1 ทำไม ADR-0007 จึงช่วยให้ระบบดีขึ้นอย่างก้าวกระโดด, 5.2 ตารางเปรียบเทียบประสิทธิภาพ ก่อน - หลัง ปรับใช้ ADR-0007, 5.3 ภาพเปรียบเทียบผลการตรวจจับจริง (Before vs After Evidence), 5.4 ภาพตัวอย่างจากการทดสอบระบบสดจริง (Real Live Run Demonstration: Full Context & Crop Evidence), 5. ผลกระทบของ ADR-0007 และการเปรียบเทียบ ก่อน - หลัง (Before vs After), ตัวอย่างที่ 1: การแก้ปัญหารองเท้าซ้อนกันและเงาดำ (Depth Overlap & Silhouette) (+3 more)
 
 ### Community 89 - "1. What Was Completed in This Session"
-Cohesion: 0.06
-Nodes (27): Feedback 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence, Reason the user gave, What the user asked to change, What the user said (verbatim), What was actually changed (fill in after the edit), 1.1 Specification & Tracer Tickets, 1.2 Dataset Merger with 5x Oversampling (Ticket 01), 1.3 ADR-0007 Augmentation Pipeline & 5 Visual Samples (Ticket 02) (+19 more)
+Cohesion: 0.18
+Nodes (10): 1.1 Specification & Tracer Tickets, 1.2 Dataset Merger with 5x Oversampling (Ticket 01), 1.3 ADR-0007 Augmentation Pipeline & 5 Visual Samples (Ticket 02), 1.4 Fine-Tuning Execution & Dual-Gate Promotion (Ticket 03 & 04), 1.6 Log Diagnostics & Field Behavior Analysis, 1. What Was Completed in This Session, 2. Key Architecture & File References, 3. Immediate Next Steps for Next Session (+2 more)
 
 ### Community 90 - "Edit 04: Annotate Occluded and Blurred Second Shoes"
 Cohesion: 0.33
@@ -447,25 +455,25 @@ Nodes (5): Feedback 02: Real-time Live Video GUI Preview, Reason the user gave, 
 Cohesion: 0.33
 Nodes (5): 1. What Was Completed, 2. Immediate Next Steps for Next Agent, 3. Suggested Skills for Next Agent, 4. Key Paths & Artifacts, Handoff: Sneaker YOLO11n Model Training Complete — Ready for Core Video Pipeline
 
-### Community 101 - "Incident Report: False-Positive Spec Freezing Gate during Task Implementation"
-Cohesion: 0.33
-Nodes (5): 1. What Happened (Timeline Reconstruction), 2. Root Cause Analysis, 3. Recommended Remediation, Flaws:, Incident Report: False-Positive Spec Freezing Gate during Task Implementation
-
 ### Community 102 - "7. โครงสร้างโปรเจกต์และวิธีติดตั้งใช้งาน"
 Cohesion: 0.40
 Nodes (5): 7.1 โครงสร้างไฟล์ในโปรเจกต์, 7.2 การติดตั้ง Dependencies, 7.3 การเรียกใช้งานระบบ, 7.4 การรันชุดทดสอบ (Automated Test Suite), 7. โครงสร้างโปรเจกต์และวิธีติดตั้งใช้งาน
 
-### Community 103 - "Edit 01: Implement Storage Persistence & Active Retraining Pipeline"
-Cohesion: 0.40
-Nodes (4): Acceptance Criteria, Edit 01: Implement Storage Persistence & Active Retraining Pipeline, Rationale & Impact, Target Files
+### Community 103 - "test_pipeline_end_to_end_integration"
+Cohesion: 0.29
+Nodes (3): MockInspector, test_pipeline_end_to_end_integration(), test_pipeline_lateral_side_view_end_to_end_integration()
 
 ### Community 104 - "Edit 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence"
-Cohesion: 0.40
-Nodes (4): Acceptance Criteria, Edit 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence, Rationale & Impact, Target Files
+Cohesion: 0.33
+Nodes (5): Acceptance Criteria, Edit 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence, Planned Changes, Rationale & Impact, Target Files
 
-### Community 105 - "Feedback 01: Implement Storage Persistence & Active Retraining Pipeline"
+### Community 105 - "Feedback 02: Tracker ID Stability and Reset"
+Cohesion: 0.33
+Nodes (5): Feedback 02: Tracker ID Stability and Reset, Reason the user gave, What the user asked to change, What the user said (verbatim), What was actually changed (fill in after the edit)
+
+### Community 106 - "Feedback 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence"
 Cohesion: 0.40
-Nodes (4): Feedback 01: Implement Storage Persistence & Active Retraining Pipeline, Reason the user gave, What the user asked to change, What the user said (verbatim)
+Nodes (4): Feedback 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence, Reason the user gave, What the user asked to change, What the user said (verbatim)
 
 ### Community 107 - "1. What Was Completed"
 Cohesion: 0.50
@@ -473,22 +481,22 @@ Nodes (3): 1. What Was Completed, 2. Immediate Next Steps, Handoff: Core Video &
 
 ## Knowledge Gaps
 - **1 isolated node(s):** `my-cv`
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 714 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 716 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **28 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `FrameSource` connect `FrameSource` to `2. Immediate Next Steps for Next Agent`, `PipelineCoordinator`, `1. What Was Completed`, `2. การตัดสินใจเชิงสถาปัตยกรรม (ADR-0001 ถึง ADR-0007)`, `coordinator.py`, `Real-Time Corridor Tripwire Footwear Inspection System`, `2. Immediate Next Steps for Next Feature`, `VideoFileFrameSource`, `SyntheticFrameSource`, `CameraFrameSource`, `1.1 Core Video Pipeline Feature Inception & Delivery`, `AGENTS.md — Engineering Guidelines & Operational Standards`, `numpy`, `2. Immediate Next Steps for Next Feature`?**
-  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+- **Why does `FrameSource` connect `FrameSource` to `2. Immediate Next Steps for Next Agent`, `PipelineCoordinator`, `1. What Was Completed`, `2. การตัดสินใจเชิงสถาปัตยกรรม (ADR-0001 ถึง ADR-0007)`, `coordinator.py`, `Real-Time Corridor Tripwire Footwear Inspection System`, `VideoFileFrameSource`, `SyntheticFrameSource`, `CameraFrameSource`, `1.1 Core Video Pipeline Feature Inception & Delivery`, `ADR-0006: Runtime Architecture, Concurrency Model, and Testing Strategy`, `numpy`, `2. Immediate Next Steps for Next Feature`, `AGENTS.md — Engineering Guidelines & Operational Standards`?**
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **Are the 18 inferred relationships involving `PipelineCoordinator` (e.g. with `Positive` and `Planned Changes`) actually correct?**
   _`PipelineCoordinator` has 18 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `my-cv` to the rest of the system?**
   _1 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `TrackedPerson` be split into smaller, more focused modules?**
-  _Cohesion score 0.09401709401709402 - nodes in this community are weakly interconnected._
-- **Why does `PipelineCoordinator` connect `PipelineCoordinator` to `ADR-0007: Dark Footwear Robustness via Training-Time Augmentation vs Real-Time Preprocessing`, `Edit 01: Implement Storage Persistence & Active Retraining Pipeline`, `1. What Was Completed`, `person_tracker.py`, `coordinator.py`, `PipelineHud`, `EventRepository`, `PersonTracker`, `1.1 Core Video Pipeline Feature Inception & Delivery`, `FrameSource`, `EvidenceWriter`, `Edit 02: Real-time Live Video GUI Preview Window with Visual HUD`?**
-  _High betweenness centrality (0.059) - this node is a cross-community bridge._
+  _Cohesion score 0.08739495798319327 - nodes in this community are weakly interconnected._
+- **Why does `PipelineCoordinator` connect `PipelineCoordinator` to `TrackedPerson`, `ADR-0007: Dark Footwear Robustness via Training-Time Augmentation vs Real-Time Preprocessing`, `PipelineConfig`, `test_pipeline_end_to_end_integration`, `Edit 02: Real Wall-Clock Date and Sequence Prefix for Captured Evidence`, `.run`, `1. What Was Completed`, `._worker_loop`, `coordinator.py`, `inspector.py`, `PipelineHud`, `EventRepository`, `pytest`, `test_coordinator_worker_persists_event_and_evidence`, `1.1 Core Video Pipeline Feature Inception & Delivery`, `FrameSource`, `EvidenceWriter`, `Edit 02: Real-time Live Video GUI Preview Window with Visual HUD`?**
+  _High betweenness centrality (0.066) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `FrameSource` (e.g. with `Encapsulation Rules:` and `3. Testing Strategy & Testability Seams`) actually correct?**
   _`FrameSource` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **Should `Rules` be split into smaller, more focused modules?**
